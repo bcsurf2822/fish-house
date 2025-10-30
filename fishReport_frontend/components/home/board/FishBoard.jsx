@@ -141,7 +141,7 @@ const FishBoard = () => {
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-[400px]">
-        <div className="text-xl text-gray-600">Loading markets...</div>
+        <div className="text-xl text-teal-600 animate-pulse">Loading markets...</div>
       </div>
     );
   }
@@ -149,28 +149,29 @@ const FishBoard = () => {
   return (
     <div className="w-full">
       {/* Markets List */}
-      <div className="mb-4 flex gap-2">
-        <div className="w-1/2 bg-gray-100 border border-gray-300 rounded-sm">
-          <div className="h-24 overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-gray-200 [&::-webkit-scrollbar-thumb]:bg-gray-400 [&::-webkit-scrollbar-thumb]:rounded-full">
+      <div className="mb-6 flex gap-4">
+        <div className="w-1/2 bg-white border border-teal-200 rounded-xl shadow-sm">
+          <div className="h-32 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-cyan-50 [&::-webkit-scrollbar-thumb]:bg-teal-400 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb:hover]:bg-teal-500">
             {markets.map((market) => (
               <div
                 key={market.marketName}
-                className={`flex items-center justify-between border-b border-gray-300 ${
+                className={`flex items-center justify-between border-b border-teal-100 transition-all duration-200 ${
                   selectedMarket?.marketName === market.marketName
-                    ? "bg-gray-300"
-                    : "hover:bg-gray-200"
+                    ? "bg-gradient-to-r from-teal-100 to-cyan-50"
+                    : "hover:bg-gradient-to-r hover:from-teal-50 hover:to-cyan-25"
                 }`}
               >
                 <button
                   onClick={() => setSelectedMarket(market)}
-                  className="flex-1 px-2 py-1 text-left text-xs"
+                  className="flex-1 px-4 py-3 text-left text-sm font-medium text-gray-800"
                 >
-                  {market.marketName} - {market.location}
+                  <div className="font-semibold text-teal-700">{market.marketName}</div>
+                  <div className="text-xs text-gray-500 mt-0.5">{market.location}</div>
                 </button>
                 {isAuthenticated && (
                   <button
                     onClick={() => handleDeleteClick(market)}
-                    className="px-2 py-1 text-xs text-red-600 hover:bg-red-100"
+                    className="w-8 h-8 mr-2 rounded-full text-red-600 hover:bg-red-100 hover:text-red-700 transition-all duration-200 flex items-center justify-center text-xl font-light"
                   >
                     ×
                   </button>
@@ -182,22 +183,25 @@ const FishBoard = () => {
 
         {/* Delete Confirmation Modal */}
         {showDeleteModal && (
-          <div className="bg-white p-3 rounded-sm border border-gray-300 shadow-sm">
-            <div className="mb-2">
-              <p className="text-xs text-gray-600">
-                Delete "{marketToDelete?.marketName}"?
+          <div className="bg-white p-6 rounded-xl border border-red-200 shadow-lg">
+            <div className="mb-4">
+              <p className="text-sm font-semibold text-gray-800 mb-1">
+                Delete Market?
+              </p>
+              <p className="text-sm text-gray-600">
+                "{marketToDelete?.marketName}" will be permanently removed.
               </p>
             </div>
-            <div className="flex justify-end gap-1">
+            <div className="flex justify-end gap-3">
               <button
                 onClick={handleCancelDelete}
-                className="px-2 py-0.5 text-xs bg-gray-100 border border-gray-300 rounded-sm hover:bg-gray-200"
+                className="px-4 py-2 text-sm bg-gray-100 border border-gray-300 rounded-lg hover:bg-gray-200 transition-colors duration-200 font-medium"
               >
                 Cancel
               </button>
               <button
                 onClick={handleConfirmDelete}
-                className="px-2 py-0.5 text-xs bg-red-100 text-red-600 border border-red-300 rounded-sm hover:bg-red-200"
+                className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200 font-medium"
               >
                 Delete
               </button>
@@ -207,72 +211,77 @@ const FishBoard = () => {
       </div>
 
       {selectedMarket ? (
-        <div className="bg-white rounded shadow-sm p-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-xl shadow-sm p-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {selectedMarket.species.map((species) => (
               <div
                 key={species.name}
-                className="bg-gray-50 p-4 rounded border border-gray-200"
+                className="bg-white rounded-xl border border-teal-100 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden group"
               >
-                <div className="h-32 bg-gray-200 rounded overflow-hidden mb-2">
+                <div className="h-48 bg-gradient-to-br from-teal-100 to-cyan-100 overflow-hidden">
                   <img
                     src={getFishImage(species.name)}
                     alt={species.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <h4 className="text-lg font-medium text-gray-800 mb-2">
-                  {species.name}
-                </h4>
-                <p className="text-xl font-bold text-blue-600">
-                  ${species.price.toFixed(2)}
-                </p>
-                <div className="mt-4 flex gap-2">
-                  <button
-                    className="flex-1 bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors duration-200 font-medium"
-                    onClick={() => handleDeleteFish(species)}
-                  >
-                    Delete
-                  </button>
+                <div className="p-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                    {species.name}
+                  </h4>
+                  <p className="text-2xl font-bold text-teal-600 mb-4">
+                    ${species.price.toFixed(2)}
+                  </p>
+                  <div className="flex gap-2">
+                    <button
+                      className="flex-1 bg-red-600 text-white py-2 px-4 rounded-lg hover:bg-red-700 transition-colors duration-200 font-medium"
+                      onClick={() => handleDeleteFish(species)}
+                    >
+                      Delete
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
             {showAddFishMenu ? (
-              <div className="bg-gray-50 p-4 rounded border border-gray-200">
-                <h4 className="text-xs text-gray-600 mb-2">Select Fish</h4>
-                <div className="h-24 overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-gray-200 [&::-webkit-scrollbar-thumb]:bg-gray-400 [&::-webkit-scrollbar-thumb]:rounded-full">
-                  <div className="space-y-1">
+              <div className="bg-white rounded-xl border border-teal-200 shadow-sm p-5">
+                <h4 className="text-sm font-semibold text-teal-700 mb-3">Select Fish</h4>
+                <div className="h-32 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-cyan-50 [&::-webkit-scrollbar-thumb]:bg-teal-400 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb:hover]:bg-teal-500">
+                  <div className="space-y-2">
                     {availableFish.map((fish) => (
                       <button
                         key={fish.id}
                         onClick={() => handleFishSelect(fish)}
-                        className={`w-full px-2 py-1 text-left text-xs rounded-sm flex items-center gap-2 ${
+                        className={`w-full px-3 py-2 text-left text-sm rounded-lg flex items-center gap-3 transition-all duration-200 ${
                           newFish.id === fish.id
-                            ? "bg-gray-300"
-                            : "hover:bg-gray-200"
+                            ? "bg-gradient-to-r from-teal-100 to-cyan-100 border border-teal-300"
+                            : "hover:bg-teal-50 border border-transparent"
                         }`}
                       >
                         <img
                           src={getFishImage(fish.name)}
                           alt={fish.name}
-                          className="w-8 h-8 object-cover rounded"
+                          className="w-10 h-10 object-cover rounded-lg"
                         />
-                        {fish.name} - ${fish.price.toFixed(2)}
+                        <div className="flex-1">
+                          <div className="font-medium text-gray-800">{fish.name}</div>
+                          <div className="text-xs text-teal-600 font-semibold">${fish.price.toFixed(2)}</div>
+                        </div>
                       </button>
                     ))}
                   </div>
                 </div>
-                <div className="mt-2 flex gap-1 justify-end">
+                <div className="mt-4 flex gap-3 justify-end">
                   <button
                     onClick={() => setShowAddFishMenu(false)}
-                    className="px-2 py-0.5 text-xs bg-gray-100 border border-gray-300 rounded-sm hover:bg-gray-200"
+                    className="px-4 py-2 text-sm bg-gray-100 border border-gray-300 rounded-lg hover:bg-gray-200 transition-colors duration-200 font-medium"
                   >
                     Cancel
                   </button>
                   <button
                     onClick={handleAddFishSubmit}
                     disabled={!newFish.id}
-                    className="px-2 py-0.5 text-xs bg-blue-100 text-blue-600 border border-blue-300 rounded-sm hover:bg-blue-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="px-4 py-2 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors duration-200 font-medium disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     Add
                   </button>
@@ -281,11 +290,11 @@ const FishBoard = () => {
             ) : isAuthenticated ? (
               <button
                 onClick={handleAddFishClick}
-                className="bg-gray-50 p-4 rounded border border-gray-200 border-dashed flex items-center justify-center hover:bg-gray-100 transition-colors duration-200"
+                className="bg-white rounded-xl border-2 border-dashed border-teal-300 hover:border-teal-400 shadow-sm hover:shadow-md flex items-center justify-center transition-all duration-300 min-h-[320px] group"
               >
                 <div className="text-center">
-                  <div className="text-2xl text-gray-400 mb-2">+</div>
-                  <div className="text-sm text-gray-600">Add Fish</div>
+                  <div className="text-5xl text-teal-400 group-hover:text-teal-500 mb-3 transition-colors duration-200">+</div>
+                  <div className="text-base font-semibold text-teal-600 group-hover:text-teal-700 transition-colors duration-200">Add Fish</div>
                 </div>
               </button>
             ) : null}
@@ -293,7 +302,7 @@ const FishBoard = () => {
         </div>
       ) : (
         <div className="flex justify-center items-center min-h-[400px]">
-          <div className="text-xl text-gray-600">
+          <div className="text-xl text-teal-600 font-medium">
             Select a market to view details
           </div>
         </div>

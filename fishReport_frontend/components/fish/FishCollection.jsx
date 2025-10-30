@@ -72,8 +72,8 @@ const FishCollection = () => {
 
   return (
     <div className="w-full">
-      <div className="mb-6">
-        <h2 className="text-2xl font-bold text-gray-800">Fish Collection</h2>
+      <div className="mb-8">
+        <h2 className="text-3xl font-bold text-gray-800">Fish Collection</h2>
         <p className="text-gray-600 mt-2">
           Browse our collection of fish species
         </p>
@@ -83,74 +83,77 @@ const FishCollection = () => {
         {fish.map((fish) => (
           <div
             key={fish.id}
-            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
+            className="bg-white rounded-xl border shadow-sm overflow-hidden hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
           >
-            <div className="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+            <div className="h-48 bg-gradient-to-br from-cyan-50 to-teal-50 flex items-center justify-center overflow-hidden">
               <img
                 src={getFishImage(fish.name)}
                 alt={fish.name}
-                className="w-full h-full object-cover"
+                className="w-full h-48 object-cover rounded-t-xl"
               />
             </div>
 
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 {fish.name}
               </h3>
 
-              <div className="space-y-2 text-gray-600">
-                <div className="flex justify-between">
-                  <span className="font-medium">Habitat:</span>
-                  <span>{fish.habitat}</span>
+              <div className="space-y-2.5 mb-4">
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-500">Habitat:</span>
+                  <span className="text-gray-600 font-medium">{fish.habitat}</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Length:</span>
-                  <span>{fish.length} cm</span>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-500">Length:</span>
+                  <span className="text-gray-600 font-medium">{fish.length} cm</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Population:</span>
-                  <span>{fish.population.toLocaleString()}</span>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-500">Population:</span>
+                  <span className="text-gray-600 font-medium">{fish.population.toLocaleString()}</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Lifespan:</span>
-                  <span>{fish.lifespan} years</span>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-500">Lifespan:</span>
+                  <span className="text-gray-600 font-medium">{fish.lifespan} years</span>
                 </div>
+              </div>
+
+              <div className="border-t pt-4 mb-4">
                 <div className="flex justify-between items-center">
-                  <span className="font-medium">Price:</span>
+                  <span className="text-sm text-gray-500">Price:</span>
                   {editingFishId === fish.id ? (
                     <div className="flex items-center gap-2">
                       <input
                         type="number"
                         value={newPrice}
                         onChange={(e) => setNewPrice(e.target.value)}
-                        className="w-24 px-2 py-1 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                        className="w-24 px-2 py-1 border border-teal-300 rounded-lg focus:ring-teal-500 focus:border-teal-500"
                         min="0"
                         step="0.01"
                       />
                       <button
                         onClick={() => handleSavePrice(fish.id)}
-                        className="text-sm bg-green-600 text-white px-3 py-1 rounded-md hover:bg-green-700"
+                        className="text-sm bg-teal-600 text-white px-3 py-1 rounded-lg hover:bg-teal-700 transition-colors"
                       >
                         Save
                       </button>
                       <button
                         onClick={handleCancelEdit}
-                        className="text-sm bg-gray-600 text-white px-3 py-1 rounded-md hover:bg-gray-700"
+                        className="text-sm bg-gray-500 text-white px-3 py-1 rounded-lg hover:bg-gray-600 transition-colors"
                       >
                         Cancel
                       </button>
                     </div>
                   ) : (
-                    <span className="text-blue-600 font-bold">
+                    <span className="text-2xl font-bold text-teal-600">
                       ${fish.price.toFixed(2)}
                     </span>
                   )}
                 </div>
               </div>
 
-              <div className="mt-6 flex gap-3">
+              <div className="flex gap-3">
                 <button
-                  className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-200 font-medium"
+                  className="flex-1 bg-teal-600 text-white py-2.5 px-4 rounded-lg hover:bg-teal-700 transition-all duration-200 font-medium shadow-sm hover:shadow-md"
                   onClick={handleEditPrice}
                   data-fish-id={fish.id}
                   data-price={fish.price}

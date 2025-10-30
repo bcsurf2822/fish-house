@@ -3,6 +3,7 @@ import Home from "../components/home/Home";
 import Nav from "../components/Nav";
 import FishCollection from "../components/fish/FishCollection";
 import AddMarketForm from "../components/market/AddMarketForm";
+import Instructions from "../components/Instructions";
 import { AuthProvider } from "../contexts/authContext";
 import { Toaster } from "react-hot-toast";
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/fish" element={<FishCollection />} />
+          <Route path="/instructions" element={<Instructions />} />
           <Route path="/add-market" element={<AddMarketForm />} />
         </Routes>
       </div>

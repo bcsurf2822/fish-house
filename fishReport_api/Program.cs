@@ -12,7 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 //DB CONTEXT
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<FishDBContext>(options =>
-    options.UseSqlServer(connectionString));
+{
+    options.UseSqlServer(connectionString);
+});
 
 //JWT AUTHENTICATION
 var authSettings = builder.Configuration.GetSection("JwtSettings");
@@ -84,7 +86,7 @@ builder.Services.AddCors(options =>
 });
     options.AddPolicy("AllowClient", policy =>
     {
-        policy.WithOrigins("fishnet-in-the-cloud.netlify.app")
+        policy.WithOrigins("https://fishnet-in-the-cloud.netlify.app")
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
@@ -112,15 +114,29 @@ builder.Services.AddAutoMapper(typeof(Program));
 //BUILDS APP
 var app = builder.Build();
 
-//CORS
-if (app.Environment.IsDevelopment())
+//DATABASE MIGRATION AND SEEDING ON STARTUP
+using (var scope = app.Services.CreateScope())
 {
-    app.UseCors("AllowLocal5173");
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<FishDBContext>();
+        var logger = services.GetRequiredService<ILogger<Program>>();
+
+        logger.LogInformation("[Program-Startup] Applying database migrations...");
+        context.Database.Migrate();
+        logger.LogInformation("[Program-Startup] Database migrations applied successfully");
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "[Program-Startup] An error occurred while migrating the database");
+        throw; // Re-throw to prevent startup if database migration fails
+    }
 }
-else
-{
-    app.UseCors("AllowClient");
-}
+
+//CORS - Use AllowAll for demo/portfolio accessibility
+app.UseCors("AllowAll");
 
 
 // Middleware
@@ -130,14 +146,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// app.UseCors("AllowAll"); // Always allow all during dev/debugging
-// // app.UseCors("AllowLocal5173"); // Or use a more specific one if needed
+// HTTPS Redirection - Only use in Development when we have HTTPS configured
+// Elastic Beanstalk load balancer handles HTTPS termination
+if (app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
 
-// // Swagger always ON (for now)
-// app.UseSwagger();
-// app.UseSwaggerUI();
-
-app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();

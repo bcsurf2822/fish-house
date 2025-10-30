@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://fishwebapp001-c6bvbebffqetg7gq.canadacentral-01.azurewebsites.net/api/fishmarket";
+const API_URL = `${import.meta.env.VITE_API_BASE_URL}/api/fishmarket`;
 
 export const getAllMarkets = async () => {
   try {
