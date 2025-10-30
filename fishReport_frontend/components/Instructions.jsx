@@ -22,8 +22,8 @@ const Instructions = () => {
               Welcome, Market Administrator
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
- As a <span className="font-semibold">Fish Market Administrator</span>,
-              you now wield the power to create markets, set prices, and control the entire fish supply chain.
+              As a <span className="font-semibold">Fish Market Administrator</span>,
+              create markets, set prices, and control the entire fish supply chain.
             </p>
             <p className="text-gray-700 leading-relaxed">
               This is a demo application for a fictional fish market management system.
