@@ -86,7 +86,7 @@ builder.Services.AddCors(options =>
 });
     options.AddPolicy("AllowClient", policy =>
     {
-        policy.WithOrigins("https://fishnet-in-the-cloud.netlify.app")
+        policy.WithOrigins("https://fish-house-demo.netlify.app", "https://fishnet-in-the-cloud.netlify.app")
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
@@ -135,8 +135,8 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-//CORS - Use AllowAll for demo/portfolio accessibility
-app.UseCors("AllowAll");
+//CORS - Use AllowClient for Netlify deployment
+app.UseCors("AllowClient");
 
 
 // Middleware
