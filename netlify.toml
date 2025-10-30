@@ -1,0 +1,20 @@
+# Netlify Build Configuration
+[build]
+  # Base directory for the frontend in monorepo
+  base = "fishReport_frontend"
+
+  # Build command
+  command = "npm run build"
+
+  # Publish directory (relative to base)
+  publish = "dist"
+
+# SPA routing - redirect all requests to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables (these can also be set in Netlify UI)
+[build.environment]
+  NODE_VERSION = "18"
