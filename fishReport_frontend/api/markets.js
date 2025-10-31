@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = `${import.meta.env.VITE_API_BASE_URL}/api/fishmarket`;
+const API_URL = `${import.meta.env.API_BASE_URL}/api/fishmarket`;
 
 export const getAllMarkets = async () => {
   try {

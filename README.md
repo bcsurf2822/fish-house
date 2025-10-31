@@ -125,7 +125,7 @@ React-based single-page application providing an intuitive interface for browsin
 **Deployment:**
 
 - Hosted on Netlify CDN
-- Production URL: <https://fishnet-in-the-cloud.netlify.app>
+- Production URL: <https://fish-house-demo.netlify.app>
 - Continuous deployment from Git repository
 
 ## AWS Services
