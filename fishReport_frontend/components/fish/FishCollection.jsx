@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAllFish, updateFishPrice } from "../../api/fish";
 import { getFishImage } from "../../src/assets/fishImageMap";
+import toast from "react-hot-toast";
 
 const FishCollection = () => {
   const [fish, setFish] = useState([]);
@@ -36,16 +37,19 @@ const FishCollection = () => {
   const handleSavePrice = async (fishId) => {
     try {
       await updateFishPrice(fishId, parseFloat(newPrice));
-      setFish(
-        fish.map((f) =>
-          f.id === fishId ? { ...f, price: parseFloat(newPrice) } : f
-        )
-      );
+
+      // Re-fetch data from server to ensure consistency
+      const response = await getAllFish();
+      setFish(response);
+
       setEditingFishId(null);
       setNewPrice("");
+      toast.success("Price updated successfully");
     } catch (error) {
       console.error("Error updating price:", error);
-      alert("Failed to update price. Please try again.");
+      const errorMessage =
+        error.response?.data || "Failed to update price. Please try again.";
+      toast.error(errorMessage);
     }
   };
 

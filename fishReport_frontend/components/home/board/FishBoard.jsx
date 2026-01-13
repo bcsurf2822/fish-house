@@ -109,8 +109,12 @@ const FishBoard = () => {
 
       setShowAddFishMenu(false);
       setNewFish({ name: "", price: "" });
-    } catch {
-      // Error handled in API layer
+      toast.success("Fish added to market successfully");
+    } catch (error) {
+      const errorMessage =
+        error.response?.data || "Failed to add fish. Please try again.";
+      toast.error(errorMessage);
+      console.error("Error adding fish:", error);
     }
   };
 

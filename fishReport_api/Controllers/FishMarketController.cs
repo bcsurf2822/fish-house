@@ -59,6 +59,29 @@ namespace FishReportApi.Controllers
             return Ok(summaryDTOs);
         }
 
+        // DIAGNOSTIC
+        [HttpGet("diagnostic/{marketId}")]
+        public async Task<IActionResult> Diagnostic(int marketId)
+        {
+            try
+            {
+                var market = await _repository.GetByIdAsync(marketId);
+                if (market == null) return NotFound(new { message = $"Market {marketId} not found" });
+
+                return Ok(new
+                {
+                    marketId = market.Id,
+                    marketName = market.MarketName,
+                    inventoryCount = market.FishMarketInventory?.Count ?? 0,
+                    inventoryIds = market.FishMarketInventory?.Select(i => new { i.FishMarketId, i.SpeciesId }).ToList()
+                });
+            }
+            catch (Exception ex)
+            {
+                return Ok(new { error = ex.Message, stackTrace = ex.StackTrace });
+            }
+        }
+
         // POST
         [Authorize]
         [HttpPost("createnew")]
@@ -94,12 +117,27 @@ namespace FishReportApi.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> AddSpeciesToMarket(int marketId, int speciesId)
         {
-            var success = await _repository.AddSpeciesToMarketAsync(marketId, speciesId);
+            try
+            {
+                Console.WriteLine($"[FishMarketController-AddSpeciesToMarket] Received request to add species {speciesId} to market {marketId}");
 
-            if (!success)
-                return NotFound("Market or Species not found, or Species already exists in Market Inventory.");
+                var success = await _repository.AddSpeciesToMarketAsync(marketId, speciesId);
 
-            return Ok($"Species {speciesId} successfully added to Market {marketId}");
+                if (!success)
+                {
+                    Console.WriteLine($"[FishMarketController-AddSpeciesToMarket] Repository returned false for market {marketId}, species {speciesId}");
+                    return NotFound("Market or Species not found, or Species already exists in Market Inventory.");
+                }
+
+                Console.WriteLine($"[FishMarketController-AddSpeciesToMarket] Successfully added species {speciesId} to market {marketId}");
+                return Ok($"Species {speciesId} successfully added to Market {marketId}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[FishMarketController-AddSpeciesToMarket] EXCEPTION: {ex.Message}");
+                Console.WriteLine($"[FishMarketController-AddSpeciesToMarket] Stack trace: {ex.StackTrace}");
+                return StatusCode(500, new { error = ex.Message, details = ex.InnerException?.Message });
+            }
         }
 
         // PUT

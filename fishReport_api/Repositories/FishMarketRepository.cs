@@ -40,38 +40,67 @@ namespace FishReportApi.Repositories
 
             if (market == null || species == null)
             {
+                Console.WriteLine($"[FishMarketRepository-AddSpeciesToMarketAsync] Market or species not found. MarketId: {marketId}, SpeciesId: {speciesId}");
                 return false;
             }
 
             if (market.FishMarketInventory.Any(fmi => fmi.SpeciesId == speciesId))
             {
+                Console.WriteLine($"[FishMarketRepository-AddSpeciesToMarketAsync] Species {speciesId} already exists in market {marketId}");
                 return false;
             }
 
-
-            _context.FishMarketInventory.Add(new FishMarketInventory
+            var newInventoryItem = new FishMarketInventory
             {
                 FishMarketId = marketId,
                 SpeciesId = speciesId
-            });
+            };
 
-            await _context.SaveChangesAsync();
-            return true;
+            Console.WriteLine($"[FishMarketRepository-AddSpeciesToMarketAsync] Adding species {speciesId} to market {marketId}");
+            _context.FishMarketInventory.Add(newInventoryItem);
+
+            try
+            {
+                var changeCount = await _context.SaveChangesAsync();
+                Console.WriteLine($"[FishMarketRepository-AddSpeciesToMarketAsync] SaveChangesAsync completed. Changes saved: {changeCount}");
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[FishMarketRepository-AddSpeciesToMarketAsync] ERROR saving changes: {ex.Message}");
+                Console.WriteLine($"[FishMarketRepository-AddSpeciesToMarketAsync] Stack trace: {ex.StackTrace}");
+                throw;
+            }
         }
 
         public async Task<bool> RemoveSpeciesFromMarketAsync(int marketId, int speciesId)
         {
+            Console.WriteLine($"[FishMarketRepository-RemoveSpeciesFromMarketAsync] Attempting to remove species {speciesId} from market {marketId}");
+
             var inventoryEntry = await _context.FishMarketInventory
                 .FirstOrDefaultAsync(fmi => fmi.FishMarketId == marketId && fmi.SpeciesId == speciesId);
 
             if (inventoryEntry == null)
             {
+                Console.WriteLine($"[FishMarketRepository-RemoveSpeciesFromMarketAsync] Inventory entry not found for market {marketId}, species {speciesId}");
                 return false;
             }
 
+            Console.WriteLine($"[FishMarketRepository-RemoveSpeciesFromMarketAsync] Removing inventory entry");
             _context.FishMarketInventory.Remove(inventoryEntry);
-            await _context.SaveChangesAsync();
-            return true;
+
+            try
+            {
+                var changeCount = await _context.SaveChangesAsync();
+                Console.WriteLine($"[FishMarketRepository-RemoveSpeciesFromMarketAsync] SaveChangesAsync completed. Changes saved: {changeCount}");
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[FishMarketRepository-RemoveSpeciesFromMarketAsync] ERROR saving changes: {ex.Message}");
+                Console.WriteLine($"[FishMarketRepository-RemoveSpeciesFromMarketAsync] Stack trace: {ex.StackTrace}");
+                throw;
+            }
         }
     }
 }

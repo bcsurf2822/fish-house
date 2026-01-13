@@ -6,7 +6,7 @@ namespace FishReportApi.Models
     public class FishMarket
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)] // Aurora DSQL doesn't support auto-increment
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Market name is required.")]

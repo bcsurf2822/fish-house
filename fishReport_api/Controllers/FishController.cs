@@ -90,7 +90,7 @@ namespace FishReportApi.Controllers
             if (!success)
                 return NotFound();
 
-            await _repository.SaveChangesAsync();
+            // SaveChangesAsync is already called inside PatchAsync, no need to call it again
             return NoContent();
         }
 

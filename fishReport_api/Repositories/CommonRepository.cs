@@ -33,6 +33,19 @@ namespace FishReportApi.Repositories
 
         public async Task<T> CreateAsync(T entity)
         {
+            // Aurora DSQL doesn't support auto-increment, so generate ID manually
+            var idProperty = _context.Entry(entity).Property("Id");
+            if (idProperty != null && (int)idProperty.CurrentValue == 0)
+            {
+                // Get next ID using MAX(Id) + 1
+                var maxId = await _dbSet.AnyAsync()
+                    ? await _dbSet.MaxAsync(e => EF.Property<int>(e, "Id"))
+                    : 0;
+
+                idProperty.CurrentValue = maxId + 1;
+                Console.WriteLine($"[GenericRepository-CreateAsync] Generated ID {idProperty.CurrentValue} for {typeof(T).Name}");
+            }
+
             await _dbSet.AddAsync(entity);
             return entity;
         }

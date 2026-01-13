@@ -2,6 +2,7 @@ using System.Text;
 using FishReportApi.Data;
 using FishReportApi.Repositories;
 using FishReportApi.Repositories.Interfaces;
+using FishReportApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -9,11 +10,17 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//DB CONTEXT
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<FishDBContext>(options =>
+//AURORA DSQL CONNECTION SERVICE
+builder.Services.AddSingleton<AuroraDsqlConnectionService>();
+
+//DB CONTEXT (Aurora DSQL with IAM Authentication)
+// Note: Connection string is generated on first use with fresh IAM token
+builder.Services.AddDbContext<FishDBContext>((serviceProvider, options) =>
 {
-    options.UseSqlServer(connectionString);
+    var connectionService = serviceProvider.GetRequiredService<AuroraDsqlConnectionService>();
+    // GetConnectionStringAsync is called synchronously here - token is generated on-demand
+    var connectionString = connectionService.GetConnectionStringAsync().GetAwaiter().GetResult();
+    options.UseNpgsql(connectionString);
 });
 
 //JWT AUTHENTICATION
@@ -86,7 +93,11 @@ builder.Services.AddCors(options =>
 });
     options.AddPolicy("AllowClient", policy =>
     {
-        policy.WithOrigins("https://fish-house-demo.netlify.app", "https://fishnet-in-the-cloud.netlify.app")
+        policy.WithOrigins(
+                "https://fish-house-demo.netlify.app",
+                "https://fishnet-in-the-cloud.netlify.app",
+                "http://localhost:5173"
+            )
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
@@ -114,26 +125,27 @@ builder.Services.AddAutoMapper(typeof(Program));
 //BUILDS APP
 var app = builder.Build();
 
-//DATABASE MIGRATION AND SEEDING ON STARTUP
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    try
-    {
-        var context = services.GetRequiredService<FishDBContext>();
-        var logger = services.GetRequiredService<ILogger<Program>>();
-
-        logger.LogInformation("[Program-Startup] Applying database migrations...");
-        context.Database.Migrate();
-        logger.LogInformation("[Program-Startup] Database migrations applied successfully");
-    }
-    catch (Exception ex)
-    {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "[Program-Startup] An error occurred while migrating the database");
-        throw; // Re-throw to prevent startup if database migration fails
-    }
-}
+//DATABASE MIGRATION DISABLED FOR AURORA DSQL
+// Aurora DSQL doesn't support EF migrations (no auto-increment)
+// Schema is managed manually via SQL scripts
+// using (var scope = app.Services.CreateScope())
+// {
+//     var services = scope.ServiceProvider;
+//     try
+//     {
+//         var context = services.GetRequiredService<FishDBContext>();
+//         var logger = services.GetRequiredService<ILogger<Program>>();
+//         logger.LogInformation("[Program-Startup] Applying database migrations...");
+//         context.Database.Migrate();
+//         logger.LogInformation("[Program-Startup] Database migrations applied successfully");
+//     }
+//     catch (Exception ex)
+//     {
+//         var logger = services.GetRequiredService<ILogger<Program>>();
+//         logger.LogError(ex, "[Program-Startup] An error occurred while migrating the database");
+//         throw;
+//     }
+// }
 
 //CORS - Use AllowClient for Netlify deployment
 app.UseCors("AllowClient");

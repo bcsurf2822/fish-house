@@ -1,0 +1,969 @@
+
+EventLog Application:
+
+
+2025-11-03T16:44:45.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T16:41:05.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T16:41:03.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T16:41:03.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T16:41:02.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T16:38:40.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:40Z. Reason: RulesEngine.
+2025-11-03T16:38:09.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T16:26:40.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:40Z. Reason: RulesEngine.
+2025-11-03T16:26:09.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T16:21:44.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:44Z. Reason: RulesEngine.
+2025-11-03T16:21:14.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T15:52:31.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:31Z. Reason: RulesEngine.
+2025-11-03T15:52:01.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T15:48:02.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T15:48:01.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T15:48:01.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T15:47:59.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T15:03:45.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:45Z. Reason: RulesEngine.
+2025-11-03T15:03:15.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T14:58:00.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T14:57:59.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T14:57:59.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T14:57:57.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T14:28:58.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T14:28:56.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T14:28:56.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T14:28:55.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T14:08:55.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T14:08:54.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T14:08:54.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T14:08:53.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T14:08:04.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:04Z. Reason: RulesEngine.
+2025-11-03T14:07:32.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T13:24:51.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:51Z. Reason: RulesEngine.
+2025-11-03T13:24:21.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T13:09:53.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T13:09:52.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T13:09:52.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T13:09:50.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T12:47:51.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T12:47:50.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T12:47:50.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T12:47:48.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T12:30:47.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:47Z. Reason: RulesEngine.
+2025-11-03T12:30:17.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T12:20:49.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T12:20:47.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T12:20:47.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T12:20:46.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T12:12:21.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:21Z. Reason: RulesEngine.
+2025-11-03T12:11:50.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T11:57:12.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:12Z. Reason: RulesEngine.
+2025-11-03T11:56:41.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T11:32:46.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T11:32:45.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T11:32:45.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T11:32:44.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T11:18:55.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:55Z. Reason: RulesEngine.
+2025-11-03T11:18:25.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T11:11:44.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T11:11:43.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T11:11:43.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T11:11:41.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T10:46:42.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T10:46:40.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T10:46:40.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T10:46:39.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T10:40:15.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:15Z. Reason: RulesEngine.
+2025-11-03T10:39:45.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T10:09:40.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T10:09:38.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T10:09:38.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T10:09:37.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T10:07:24.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:24Z. Reason: RulesEngine.
+2025-11-03T10:06:53.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T09:34:43.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:43Z. Reason: RulesEngine.
+2025-11-03T09:34:13.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T09:17:37.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T09:17:36.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T09:17:36.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T09:17:35.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T09:09:17.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:17Z. Reason: RulesEngine.
+2025-11-03T09:08:47.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T08:56:35.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T08:56:34.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T08:56:34.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T08:56:32.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T08:39:26.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:26Z. Reason: RulesEngine.
+2025-11-03T08:38:56.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T08:24:16.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:16Z. Reason: RulesEngine.
+2025-11-03T08:23:44.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T07:58:30.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:30Z. Reason: RulesEngine.
+2025-11-03T07:57:59.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T07:56:32.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T07:56:31.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T07:56:31.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T07:56:30.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T07:47:27.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:27Z. Reason: RulesEngine.
+2025-11-03T07:46:56.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T07:36:30.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T07:36:29.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T07:36:29.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T07:36:28.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T07:06:28.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T07:06:27.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T07:06:27.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T07:06:25.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T06:46:45.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:45Z. Reason: RulesEngine.
+2025-11-03T06:46:15.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T06:43:26.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T06:43:24.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T06:43:24.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T06:43:23.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T06:43:14.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:14Z. Reason: RulesEngine.
+2025-11-03T06:42:44.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T05:59:45.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:45Z. Reason: RulesEngine.
+2025-11-03T05:59:15.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T05:53:23.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T05:53:22.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T05:53:22.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T05:53:21.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T05:04:17.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:17Z. Reason: RulesEngine.
+2025-11-03T05:03:47.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T04:33:34.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:34Z. Reason: RulesEngine.
+2025-11-03T04:32:58.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T04:30:21.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T04:30:20.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T04:30:20.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T04:30:19.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T04:10:19.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T04:10:18.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T04:10:18.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T04:10:16.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T03:40:18.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T03:40:16.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T03:40:16.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T03:40:14.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T03:34:33.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:33Z. Reason: RulesEngine.
+2025-11-03T03:34:03.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T03:10:14.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T03:10:13.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T03:10:13.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T03:10:11.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T03:08:12.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:12Z. Reason: RulesEngine.
+2025-11-03T03:07:41.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T02:14:48.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:48Z. Reason: RulesEngine.
+2025-11-03T02:14:18.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T02:00:17.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:17Z. Reason: RulesEngine.
+2025-11-03T02:00:12.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T02:00:10.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T02:00:10.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T02:00:09.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T01:59:46.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T01:33:09.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T01:33:08.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T01:33:08.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T01:33:06.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T01:12:35.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:35Z. Reason: RulesEngine.
+2025-11-03T01:12:04.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T00:58:07.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T00:58:06.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T00:58:06.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T00:58:04.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T00:38:05.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-03T00:38:03.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T00:38:03.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-03T00:38:02.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-03T00:26:40.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:40Z. Reason: RulesEngine.
+2025-11-03T00:26:10.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-03T00:04:35.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:35Z. Reason: RulesEngine.
+2025-11-03T00:04:05.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-02T23:57:03.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-02T23:57:01.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T23:57:01.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T23:57:00.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-02T23:33:00.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-02T23:32:59.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T23:32:59.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T23:32:57.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-02T23:08:01.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:01Z. Reason: RulesEngine.
+2025-11-02T23:07:31.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-02T22:29:18.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:18Z. Reason: RulesEngine.
+2025-11-02T22:28:47.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-02T22:02:58.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-02T22:02:57.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T22:02:57.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T22:02:55.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-02T21:55:57.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:57Z. Reason: RulesEngine.
+2025-11-02T21:55:26.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-02T21:27:56.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:15:56Z. Reason: RulesEngine.
+2025-11-02T21:27:20.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-02T21:12:13.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:13Z. Reason: RulesEngine.
+2025-11-02T21:11:42.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-02T21:03:55.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+2025-11-02T21:03:54.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T21:03:54.000Z Warning 0:(0) IIS AspNetCore Module V2 - Could not start stdout file redirection to '.\logs\stdout' with application base 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\'. create_directories: Access is denied.: "C:\inetpub\AspNetCoreWebApps\fishhouse-api\.\logs".
+2025-11-02T21:03:53.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'MACHINE/WEBROOT/APPHOST/DEFAULT WEB SITE' has shutdown.
+2025-11-02T21:00:07.000Z Information 0:(0) Software Protection Platform Service - Successfully scheduled Software Protection service for re-start at 2025-11-06T21:16:07Z. Reason: RulesEngine.
+2025-11-02T20:59:36.000Z Information 0:(0) Software Protection Platform Service - Offline downlevel migration succeeded.
+2025-11-02T20:43:53.000Z Information 0:(0) IIS AspNetCore Module V2 - Application 'C:\inetpub\AspNetCoreWebApps\fishhouse-api\' started successfully.
+
+cfn-hup.log:
+
+2025-11-02 18:16:49,627 [INFO] Refreshing listener credentials
+2025-11-02 18:16:50,127 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 18:46:49,098 [INFO] Refreshing listener credentials
+2025-11-02 18:46:49,583 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 19:16:48,570 [INFO] Refreshing listener credentials
+2025-11-02 19:16:49,069 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 19:46:48,053 [INFO] Refreshing listener credentials
+2025-11-02 19:46:48,538 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 20:16:47,524 [INFO] Refreshing listener credentials
+2025-11-02 20:16:48,024 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 20:46:47,006 [INFO] Refreshing listener credentials
+2025-11-02 20:46:47,521 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 21:16:46,503 [INFO] Refreshing listener credentials
+2025-11-02 21:16:47,034 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 21:46:46,019 [INFO] Refreshing listener credentials
+2025-11-02 21:46:46,503 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 22:16:45,488 [INFO] Refreshing listener credentials
+2025-11-02 22:16:46,004 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 22:46:44,992 [INFO] Refreshing listener credentials
+2025-11-02 22:46:45,539 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 23:16:44,519 [INFO] Refreshing listener credentials
+2025-11-02 23:16:45,019 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-02 23:46:44,006 [INFO] Refreshing listener credentials
+2025-11-02 23:46:44,553 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 00:16:43,530 [INFO] Refreshing listener credentials
+2025-11-03 00:16:44,014 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 00:46:43,014 [INFO] Refreshing listener credentials
+2025-11-03 00:46:43,545 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 01:16:42,523 [INFO] Refreshing listener credentials
+2025-11-03 01:16:43,007 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 01:46:42,007 [INFO] Refreshing listener credentials
+2025-11-03 01:46:42,522 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 02:16:41,504 [INFO] Refreshing listener credentials
+2025-11-03 02:16:41,988 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 02:46:41,006 [INFO] Refreshing listener credentials
+2025-11-03 02:46:41,491 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 03:16:40,508 [INFO] Refreshing listener credentials
+2025-11-03 03:16:40,992 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 03:46:39,992 [INFO] Refreshing listener credentials
+2025-11-03 03:46:40,492 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 04:16:39,488 [INFO] Refreshing listener credentials
+2025-11-03 04:16:39,972 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 04:46:38,968 [INFO] Refreshing listener credentials
+2025-11-03 04:46:39,452 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 05:16:38,453 [INFO] Refreshing listener credentials
+2025-11-03 05:16:38,938 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 05:46:37,939 [INFO] Refreshing listener credentials
+2025-11-03 05:46:38,424 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 06:16:37,425 [INFO] Refreshing listener credentials
+2025-11-03 06:16:37,910 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 06:46:36,906 [INFO] Refreshing listener credentials
+2025-11-03 06:46:37,469 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 07:16:36,466 [INFO] Refreshing listener credentials
+2025-11-03 07:16:37,013 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 07:46:35,997 [INFO] Refreshing listener credentials
+2025-11-03 07:46:36,528 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 08:16:35,528 [INFO] Refreshing listener credentials
+2025-11-03 08:16:36,106 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 08:46:35,085 [INFO] Refreshing listener credentials
+2025-11-03 08:46:35,663 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 09:16:34,647 [INFO] Refreshing listener credentials
+2025-11-03 09:16:35,210 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 09:46:34,205 [INFO] Refreshing listener credentials
+2025-11-03 09:46:34,751 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 10:16:33,736 [INFO] Refreshing listener credentials
+2025-11-03 10:16:34,314 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 10:46:33,285 [INFO] Refreshing listener credentials
+2025-11-03 10:46:33,832 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 11:16:32,817 [INFO] Refreshing listener credentials
+2025-11-03 11:16:33,723 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 11:46:32,751 [INFO] Refreshing listener credentials
+2025-11-03 11:46:33,298 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 12:16:32,282 [INFO] Refreshing listener credentials
+2025-11-03 12:16:32,782 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 12:46:31,767 [INFO] Refreshing listener credentials
+2025-11-03 12:46:32,283 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 13:16:31,274 [INFO] Refreshing listener credentials
+2025-11-03 13:16:31,758 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 13:46:30,743 [INFO] Refreshing listener credentials
+2025-11-03 13:46:31,275 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 14:16:30,258 [INFO] Refreshing listener credentials
+2025-11-03 14:16:30,758 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 14:46:29,742 [INFO] Refreshing listener credentials
+2025-11-03 14:46:30,242 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 15:16:29,243 [INFO] Refreshing listener credentials
+2025-11-03 15:16:29,775 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 15:46:28,770 [INFO] Refreshing listener credentials
+2025-11-03 15:46:29,302 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 16:16:28,286 [INFO] Refreshing listener credentials
+2025-11-03 16:16:28,818 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 16:44:08,252 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: 79659ec1-de08-4b40-b349-16c83b632fef)
+2025-11-03 16:44:08,268 [INFO] Running action for aws-eb-command-handler
+2025-11-03 16:44:08,361 [INFO] IO redirection is working. Redirecting the output to logs
+2025-11-03 16:44:54,221 [INFO] Action for aws-eb-command-handler succeeded, returning SUCCESS
+2025-11-03 16:46:27,799 [INFO] Refreshing listener credentials
+2025-11-03 16:46:28,283 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-11-03 16:48:43,438 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: 7891dccc-6a8d-49cd-b9f1-f405d8a59da3)
+2025-11-03 16:48:43,438 [INFO] Running action for aws-eb-command-handler
+2025-11-03 16:48:43,501 [INFO] IO redirection is working. Redirecting the output to logs
+
+cfn-init.log:
+
+2025-10-30 23:11:42,274 [INFO] Running configSet Infra-EmbeddedPreBuild
+2025-10-30 23:11:42,290 [INFO] Running configSet Hook-PreAppDeploy
+2025-10-30 23:11:42,305 [INFO] Running config Hook-PreAppDeploy
+2025-10-30 23:11:42,399 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:11:49,758 [INFO] Command hooks succeeded
+2025-10-30 23:11:49,789 [INFO] Running configSet Infra-EmbeddedPostBuild
+2025-10-30 23:11:49,805 [INFO] Running configSet Hook-EnactAppDeploy
+2025-10-30 23:11:49,821 [INFO] Running config Hook-EnactAppDeploy
+2025-10-30 23:11:49,914 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:12:03,086 [INFO] Command hooks succeeded
+2025-10-30 23:12:03,118 [INFO] Running configSet Hook-PostAppDeploy
+2025-10-30 23:12:03,133 [INFO] Running config Hook-PostAppDeploy
+2025-10-30 23:12:03,227 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:12:12,258 [INFO] Command hooks succeeded
+2025-10-30 23:12:12,289 [INFO] ConfigSets completed
+2025-10-30 23:12:12,320 [INFO] -----------------------Build complete-----------------------
+2025-10-30 23:30:52,439 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+2025-10-30 23:30:52,470 [DEBUG] Describing resource AWSEBAutoScalingGroup in stack arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7
+2025-10-30 23:30:55,517 [INFO] -----------------------Starting build-----------------------
+2025-10-30 23:30:55,580 [INFO] Running configSets: Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-10-30 23:30:55,595 [INFO] Running configSet Infra-WriteRuntimeConfig
+2025-10-30 23:30:55,626 [INFO] Running config Infra-WriteRuntimeConfig
+2025-10-30 23:30:55,736 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:30:55,768 [INFO] Command 01mkdir succeeded
+2025-10-30 23:30:55,830 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:30:56,080 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+2025-10-30 23:30:56,111 [DEBUG] Describing resource AWSEBAutoScalingGroup in stack arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7
+2025-10-30 23:30:56,876 [INFO] Command 02writeappsource succeeded
+2025-10-30 23:30:56,876 [INFO] Waiting 5 seconds for reboot
+2025-10-30 23:31:01,924 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:31:02,206 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+2025-10-30 23:31:02,283 [DEBUG] Describing resource AWSEBAutoScalingGroup in stack arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7
+2025-10-30 23:31:03,033 [INFO] Command 03writeconfig succeeded
+2025-10-30 23:31:03,065 [INFO] Running configSet Infra-EmbeddedPreBuild
+2025-10-30 23:31:03,080 [INFO] Running configSet Hook-PreAppDeploy
+2025-10-30 23:31:03,111 [INFO] Running config Hook-PreAppDeploy
+2025-10-30 23:31:03,205 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:31:11,049 [INFO] Command hooks succeeded
+2025-10-30 23:31:11,096 [INFO] Running configSet Infra-EmbeddedPostBuild
+2025-10-30 23:31:11,111 [INFO] Running configSet Hook-EnactAppDeploy
+2025-10-30 23:31:11,128 [INFO] Running config Hook-EnactAppDeploy
+2025-10-30 23:31:11,205 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:31:23,394 [INFO] Command hooks succeeded
+2025-10-30 23:31:23,443 [INFO] Running configSet Hook-PostAppDeploy
+2025-10-30 23:31:23,457 [INFO] Running config Hook-PostAppDeploy
+2025-10-30 23:31:23,550 [INFO] IO redirection is working. Redirecting the output to logs
+2025-10-30 23:31:32,769 [INFO] Command hooks succeeded
+2025-10-30 23:31:32,816 [INFO] ConfigSets completed
+2025-10-30 23:31:32,816 [INFO] -----------------------Build complete-----------------------
+2025-11-03 16:44:11,143 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+2025-11-03 16:44:11,190 [DEBUG] Describing resource AWSEBAutoScalingGroup in stack arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7
+2025-11-03 16:44:13,893 [INFO] -----------------------Starting build-----------------------
+2025-11-03 16:44:14,080 [INFO] Running configSets: Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-11-03 16:44:14,096 [INFO] Running configSet Infra-WriteRuntimeConfig
+2025-11-03 16:44:14,112 [INFO] Running config Infra-WriteRuntimeConfig
+2025-11-03 16:44:14,221 [INFO] IO redirection is working. Redirecting the output to logs
+2025-11-03 16:44:14,237 [INFO] Command 01mkdir succeeded
+2025-11-03 16:44:14,299 [INFO] IO redirection is working. Redirecting the output to logs
+2025-11-03 16:44:14,565 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+2025-11-03 16:44:14,627 [DEBUG] Describing resource AWSEBAutoScalingGroup in stack arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7
+2025-11-03 16:44:15,346 [INFO] Command 02writeappsource succeeded
+2025-11-03 16:44:15,346 [INFO] Waiting 5 seconds for reboot
+2025-11-03 16:44:20,393 [INFO] IO redirection is working. Redirecting the output to logs
+2025-11-03 16:44:20,643 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+2025-11-03 16:44:20,737 [DEBUG] Describing resource AWSEBAutoScalingGroup in stack arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7
+2025-11-03 16:44:21,503 [INFO] Command 03writeconfig succeeded
+2025-11-03 16:44:21,534 [INFO] Running configSet Infra-EmbeddedPreBuild
+2025-11-03 16:44:21,550 [INFO] Running configSet Hook-PreAppDeploy
+2025-11-03 16:44:21,565 [INFO] Running config Hook-PreAppDeploy
+2025-11-03 16:44:21,659 [INFO] IO redirection is working. Redirecting the output to logs
+2025-11-03 16:44:40,049 [INFO] Command hooks succeeded
+2025-11-03 16:44:40,096 [INFO] Running configSet Infra-EmbeddedPostBuild
+2025-11-03 16:44:40,112 [INFO] Running configSet Hook-EnactAppDeploy
+2025-11-03 16:44:40,128 [INFO] Running config Hook-EnactAppDeploy
+2025-11-03 16:44:40,221 [INFO] IO redirection is working. Redirecting the output to logs
+2025-11-03 16:44:54,034 [ERROR] Command hooks (HooksExecutor.exe appdeploy\enact) failed
+2025-11-03 16:44:54,034 [ERROR] Error encountered during build of Hook-EnactAppDeploy: Command hooks failed
+Traceback (most recent call last):
+  File "cfnbootstrap\construction.pyc", line 581, in run_config
+  File "cfnbootstrap\construction.pyc", line 146, in run_commands
+  File "cfnbootstrap\command_tool.pyc", line 127, in apply
+cfnbootstrap.construction_errors.ToolError: Command hooks failed
+2025-11-03 16:44:54,049 [ERROR] -----------------------BUILD FAILED!------------------------
+2025-11-03 16:44:54,049 [ERROR] Unhandled exception during build: Command hooks failed
+Traceback (most recent call last):
+  File "cfn-init", line 181, in <module>
+  File "cfnbootstrap\construction.pyc", line 137, in build
+  File "cfnbootstrap\construction.pyc", line 567, in build
+  File "cfnbootstrap\construction.pyc", line 581, in run_config
+  File "cfnbootstrap\construction.pyc", line 146, in run_commands
+  File "cfnbootstrap\command_tool.pyc", line 127, in apply
+cfnbootstrap.construction_errors.ToolError: Command hooks failed
+2025-11-03 16:48:44,922 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+2025-11-03 16:48:45,047 [DEBUG] Describing resource AWSEBAutoScalingGroup in stack arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7
+2025-11-03 16:48:47,672 [INFO] -----------------------Starting build-----------------------
+2025-11-03 16:48:47,735 [INFO] Running configSets: InfoTask-TailLogs
+2025-11-03 16:48:47,751 [INFO] Running configSet InfoTask-TailLogs
+2025-11-03 16:48:47,766 [INFO] Running config InfoTask-TailLogs
+2025-11-03 16:48:47,875 [INFO] IO redirection is working. Redirecting the output to logs
+
+AWS.DeploymentCommands.2025.11.03-16.44.52.log:
+
+[2025-11-03 16:44:52.217] [INFO]     Reading manifest file from: C:\staging\aws-windows-deployment-manifest.json
+[2025-11-03 16:44:52.224] [INFO]     Reading manifest content from path: C:\staging\aws-windows-deployment-manifest.json
+[2025-11-03 16:44:52.279] [INFO]     Successfully parsed manifest from: C:\staging\aws-windows-deployment-manifest.json
+
+[2025-11-03 16:44:52.548] [INFO]     Starting deployment for fishhouse-api of type AspNetCoreWeb
+[2025-11-03 16:44:52.548] [INFO]     Parameters:
+[2025-11-03 16:44:52.549] [INFO]     	appBundle: site.zip
+[2025-11-03 16:44:52.550] [INFO]     	iisPath: /
+[2025-11-03 16:44:52.550] [INFO]     	iisWebSite: Default Web Site
+[2025-11-03 16:44:52.630] [INFO]     Starting ASP.NET Core web deployment fishhouse-api at C:\inetpub\AspNetCoreWebApps\fishhouse-api with IIS path Default Web Site/
+[2025-11-03 16:44:52.633] [ERROR]    Error during deployment: Unable to find appBundle site.zip
+[2025-11-03 16:44:52.719] [VERBOSE]     at AWS.DeploymentCommands.Utilities.CopyAppBundle(String baseDirectory, String appBundle, String targetLocation, ILogger logger) in /workplace/bvlazar/multi-site-iis/src/AWSDotNetDeploymentTools/src/AWS.DeploymentCommands/Utilities.cs:line 54
+                                      at AWS.DeploymentCommands.Commands.DeployAspNetCoreApp.DoInstall() in /workplace/bvlazar/multi-site-iis/src/AWSDotNetDeploymentTools/src/AWS.DeploymentCommands/Commands/DeployAspNetCoreApp.cs:line 93
+[2025-11-03 16:44:52.720] [INFO]     Starting IIS
+[2025-11-03 16:44:52.721] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /start" ----------
+[2025-11-03 16:44:52.721] [INFO]     ---------- CWD "" ----------
+[2025-11-03 16:44:52.806] [INFO]     Attempting start...
+[2025-11-03 16:44:52.806] [INFO]     Internet services successfully started
+[2025-11-03 16:44:52.812] [INFO]     ---------- Command complete with exit code 0 ----------
+[2025-11-03 16:44:42.528] [INFO]     Reading manifest file from: C:\staging-previous\aws-windows-deployment-manifest.json
+[2025-11-03 16:44:42.541] [INFO]     Reading manifest content from path: C:\staging-previous\aws-windows-deployment-manifest.json
+[2025-11-03 16:44:42.656] [INFO]     Successfully parsed manifest from: C:\staging-previous\aws-windows-deployment-manifest.json
+[2025-11-03 16:44:42.657] [INFO]     Reading manifest content from path: C:\staging\aws-windows-deployment-manifest.json
+[2025-11-03 16:44:42.657] [INFO]     Successfully parsed manifest from: C:\staging\aws-windows-deployment-manifest.json
+
+[2025-11-03 16:44:43.163] [INFO]     Starting deployment for fishhouse-api of type AspNetCoreWeb
+[2025-11-03 16:44:43.163] [INFO]     Parameters:
+[2025-11-03 16:44:43.166] [INFO]     	appBundle: site.zip
+[2025-11-03 16:44:43.167] [INFO]     	iisPath: /
+[2025-11-03 16:44:43.167] [INFO]     	iisWebSite: Default Web Site
+[2025-11-03 16:44:43.451] [INFO]     Uninstalling fishhouse-api at C:\inetpub\AspNetCoreWebApps\fishhouse-api
+[2025-11-03 16:44:43.452] [INFO]     Stopping IIS
+[2025-11-03 16:44:43.465] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /stop" ----------
+[2025-11-03 16:44:43.465] [INFO]     ---------- CWD "" ----------
+[2025-11-03 16:44:49.735] [INFO]     Attempting stop...
+[2025-11-03 16:44:49.736] [INFO]     Internet services successfully stopped
+[2025-11-03 16:44:49.742] [INFO]     ---------- Command complete with exit code 0 ----------
+[2025-11-03 16:44:49.764] [INFO]     Removing existing application from IIS
+[2025-11-03 16:44:49.883] [INFO]     The root application was removed, resetting website to an empty place holder: C:\inetpub\wwwroot
+[2025-11-03 16:44:49.971] [INFO]     Starting IIS
+[2025-11-03 16:44:49.971] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /start" ----------
+[2025-11-03 16:44:49.971] [INFO]     ---------- CWD "" ----------
+[2025-11-03 16:44:51.243] [INFO]     Attempting start...
+[2025-11-03 16:44:51.244] [INFO]     Internet services successfully started
+[2025-11-03 16:44:51.249] [INFO]     ---------- Command complete with exit code 0 ----------
+[2025-11-03 16:44:51.250] [INFO]     Starting IIS
+[2025-11-03 16:44:51.250] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /start" ----------
+[2025-11-03 16:44:51.250] [INFO]     ---------- CWD "" ----------
+[2025-11-03 16:44:51.320] [INFO]     Attempting start...
+[2025-11-03 16:44:51.320] [INFO]     Internet services successfully started
+[2025-11-03 16:44:51.330] [INFO]     ---------- Command complete with exit code 0 ----------
+[2025-10-30 23:31:25.066] [INFO]     Reading manifest file from: C:\staging-previous\aws-windows-deployment-manifest.json
+[2025-10-30 23:31:25.073] [INFO]     Reading manifest content from path: C:\staging-previous\aws-windows-deployment-manifest.json
+[2025-10-30 23:31:25.127] [INFO]     Successfully parsed manifest from: C:\staging-previous\aws-windows-deployment-manifest.json
+
+[2025-10-30 23:31:25.392] [INFO]     Starting deployment for fishhouse-api of type AspNetCoreWeb
+[2025-10-30 23:31:25.393] [INFO]     Parameters:
+[2025-10-30 23:31:25.394] [INFO]     	appBundle: site.zip
+[2025-10-30 23:31:25.395] [INFO]     	iisPath: /
+[2025-10-30 23:31:25.395] [INFO]     	iisWebSite: Default Web Site
+[2025-10-30 23:31:25.469] [INFO]     Starting restart of fishhouse-api
+[2025-10-30 23:31:25.471] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /restart" ----------
+[2025-10-30 23:31:25.472] [INFO]     ---------- CWD "" ----------
+[2025-10-30 23:31:30.744] [INFO]     Attempting stop...
+[2025-10-30 23:31:30.744] [INFO]     Internet services successfully stopped
+[2025-10-30 23:31:30.744] [INFO]     Attempting start...
+[2025-10-30 23:31:30.745] [INFO]     Internet services successfully restarted
+[2025-10-30 23:31:30.755] [INFO]     ---------- Command complete with exit code 0 ----------
+[2025-10-30 23:31:20.294] [INFO]     Reading manifest file from: C:\staging\aws-windows-deployment-manifest.json
+[2025-10-30 23:31:20.301] [INFO]     Reading manifest content from path: C:\staging\aws-windows-deployment-manifest.json
+[2025-10-30 23:31:20.354] [INFO]     Successfully parsed manifest from: C:\staging\aws-windows-deployment-manifest.json
+
+[2025-10-30 23:31:20.617] [INFO]     Starting deployment for fishhouse-api of type AspNetCoreWeb
+[2025-10-30 23:31:20.617] [INFO]     Parameters:
+[2025-10-30 23:31:20.619] [INFO]     	appBundle: site.zip
+[2025-10-30 23:31:20.619] [INFO]     	iisPath: /
+[2025-10-30 23:31:20.620] [INFO]     	iisWebSite: Default Web Site
+[2025-10-30 23:31:20.706] [INFO]     Starting ASP.NET Core web deployment fishhouse-api at C:\inetpub\AspNetCoreWebApps\fishhouse-api with IIS path Default Web Site/
+[2025-10-30 23:31:20.707] [INFO]     Extracting Zip File
+[2025-10-30 23:31:21.872] [INFO]     Removing existing application from IIS
+[2025-10-30 23:31:21.872] [INFO]     Adding application to IIS
+[2025-10-30 23:31:21.880] [INFO]     Commit changes to IIS
+[2025-10-30 23:31:21.992] [INFO]     Starting IIS
+[2025-10-30 23:31:21.994] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /start" ----------
+[2025-10-30 23:31:21.994] [INFO]     ---------- CWD "" ----------
+[2025-10-30 23:31:22.110] [INFO]     Attempting start...
+[2025-10-30 23:31:22.110] [INFO]     Internet services successfully started
+[2025-10-30 23:31:22.124] [INFO]     ---------- Command complete with exit code 0 ----------
+[2025-10-30 23:31:18.146] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /start" ----------
+[2025-10-30 23:31:18.146] [INFO]     ---------- CWD "" ----------
+[2025-10-30 23:31:19.337] [INFO]     Attempting start...
+[2025-10-30 23:31:19.337] [INFO]     Internet services successfully started
+[2025-10-30 23:31:19.341] [INFO]     ---------- Command complete with exit code 0 ----------
+[2025-10-30 23:31:19.341] [INFO]     Starting IIS
+[2025-10-30 23:31:19.342] [INFO]     ---------- Executing command "C:\Windows\system32\iisreset.exe /start" ----------
+[2025-10-30 23:31:19.342] [INFO]     ---------- CWD "" ----------
+[2025-10-30 23:31:19.442] [INFO]     Attempting start...
+[2025-10-30 23:31:19.442] [INFO]     Internet services successfully started
+[2025-10-30 23:31:19.479] [INFO]     ---------- Command complete with exit code 0 ----------
+
+AWSCommandWrapper.log:
+
+2025-11-03 16:44:08,689 INFO 1 CfnCommandWrapperApp.CommandWrapper - Command: Id = 79659ec1-de08-4b40-b349-16c83b632fef, Dispatcher = arn:aws:cloudformation:us-east-1:921125571273:dispatcher/awseb-e-crzhtmfxft-stack/6cddef9c-2b96-4292-abe9-027acb6b6b0b, Data = https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/58d4737e-2809-4e74-9325-c3553e4427f8?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIG4bidOZkj8km25nwutFnQNRV8lw9pdetBxWT3bUptK9AiAoBtPj0zXXD%2F6cxBjGhKiFG%2BqLjOiCMYVU58bhIZrviirtAghhEAAaDDI1NzE3MjM5MTE0OSIM%2FDG8mPUJAnqN%2BGJFKsoCiaJ8peWgDolMrUKcC0d2SLQPRFhuNnp6DsfLClTFcOi03b6FNb7l8tT4P0MZ5w7ix7fEFG5H1v%2BTiKcjh%2FnIcoEPePw6zsToaPyU4gZmUtFFZazuqen8IWfqyMbkVZNtlwbodjzaM1th%2BsmQtYftEvU7Y%2BWTBnnNoAXZ7%2BlzNkkvnlr1xNrOXUdpJ5u%2FtGoTlLdb32PW58vnlfRxazqYAzenm8r6SbU5KZC8OLLxPbzl7bUUUJ6M1bCHoxJGOYHJ5JdoljwVEkGmAU2m6Sbn5K5V2JG1v%2BSilb%2FaPuYu3tqgPjdyujpBV07nCF61oniuI8%2BRgkXehc4At7SldLHrioih2E02gy0RD1C0qVSLU09pohjAXAoVsJVcLOVBxlS%2FKwzJfViD%2By%2Br10PYYJ342eB8cEityqqxrA8msEnmuImDRrn5uu3VA13FMP2no8gGOr4BOqXHIOgdDoOK3LMRYlvLwfAIZihVveAMABJk3dwYRNHhOopisWZVgwoSSugY%2Bwy5u04wlO0HBIOLm69wIncrcdZqOJEp91TkhpREEPcnX3MfQTcEtcpqoJfOK9vtA3jppaM6ISAg58M52%2FFATB7J6R0uDwjJl1TLddzuR8Hk%2B1FZviafx5onYR7o11Rl3YvMxInCyypURFmYTSUu0or2vPqR5NgNUYLzMExcjiiRyFhA35S88OqsZH55xQRTiQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T164408Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW6SKWAT2Q%2F20251103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cb3078ba6efd8f578dca420f126c96f83e5325a97d4f5cdfb31866b25594265a
+2025-11-03 16:44:08,689 DEBUG 1 CfnCommandWrapperApp.Command - Reading command data from S3: https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/58d4737e-2809-4e74-9325-c3553e4427f8?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIG4bidOZkj8km25nwutFnQNRV8lw9pdetBxWT3bUptK9AiAoBtPj0zXXD%2F6cxBjGhKiFG%2BqLjOiCMYVU58bhIZrviirtAghhEAAaDDI1NzE3MjM5MTE0OSIM%2FDG8mPUJAnqN%2BGJFKsoCiaJ8peWgDolMrUKcC0d2SLQPRFhuNnp6DsfLClTFcOi03b6FNb7l8tT4P0MZ5w7ix7fEFG5H1v%2BTiKcjh%2FnIcoEPePw6zsToaPyU4gZmUtFFZazuqen8IWfqyMbkVZNtlwbodjzaM1th%2BsmQtYftEvU7Y%2BWTBnnNoAXZ7%2BlzNkkvnlr1xNrOXUdpJ5u%2FtGoTlLdb32PW58vnlfRxazqYAzenm8r6SbU5KZC8OLLxPbzl7bUUUJ6M1bCHoxJGOYHJ5JdoljwVEkGmAU2m6Sbn5K5V2JG1v%2BSilb%2FaPuYu3tqgPjdyujpBV07nCF61oniuI8%2BRgkXehc4At7SldLHrioih2E02gy0RD1C0qVSLU09pohjAXAoVsJVcLOVBxlS%2FKwzJfViD%2By%2Br10PYYJ342eB8cEityqqxrA8msEnmuImDRrn5uu3VA13FMP2no8gGOr4BOqXHIOgdDoOK3LMRYlvLwfAIZihVveAMABJk3dwYRNHhOopisWZVgwoSSugY%2Bwy5u04wlO0HBIOLm69wIncrcdZqOJEp91TkhpREEPcnX3MfQTcEtcpqoJfOK9vtA3jppaM6ISAg58M52%2FFATB7J6R0uDwjJl1TLddzuR8Hk%2B1FZviafx5onYR7o11Rl3YvMxInCyypURFmYTSUu0or2vPqR5NgNUYLzMExcjiiRyFhA35S88OqsZH55xQRTiQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T164408Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW6SKWAT2Q%2F20251103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cb3078ba6efd8f578dca420f126c96f83e5325a97d4f5cdfb31866b25594265a
+2025-11-03 16:44:09,127 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Trying to get Metadata with Key AWS::ElasticBeanstalk::Ext._API._Commands.CMD-AppDeploy._Stages from cache for Request ID ccf717e2-c25a-4a4e-87f1-60b50ef909d8
+2025-11-03 16:44:09,143 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Metadata cache file does not exist; file path: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-ccf717e2-c25a-4a4e-87f1-60b50ef909d8
+2025-11-03 16:44:09,143 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe -v -r AWSEBAutoScalingGroup -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 --region us-east-1
+2025-11-03 16:44:09,143 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: ccf717e2-c25a-4a4e-87f1-60b50ef909d8, retry 0
+2025-11-03 16:44:11,893 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-11-03 16:44:11,909 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-11-03 16:44:11,909 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-ccf717e2-c25a-4a4e-87f1-60b50ef909d8
+2025-11-03 16:44:11,924 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_pre":["Infra-WriteRuntimeConfig","Infra-EmbeddedPreBuild","Hook-PreAppDeploy","Infra-EmbeddedPostBuild"],"02_enact":["Hook-EnactAppDeploy","Hook-PostAppDeploy"]}
+2025-11-03 16:44:11,924 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-AppDeploy' (stage 'None'): Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-11-03 16:44:12,971 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-11-03 16:44:12,987 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c Infra-WriteRuntimeConfig,Infra-EmbeddedPreBuild,Hook-PreAppDeploy,Infra-EmbeddedPostBuild,Hook-EnactAppDeploy,Hook-PostAppDeploy
+2025-11-03 16:48:43,672 INFO 1 CfnCommandWrapperApp.CommandWrapper - Command: Id = 7891dccc-6a8d-49cd-b9f1-f405d8a59da3, Dispatcher = arn:aws:cloudformation:us-east-1:921125571273:dispatcher/awseb-e-crzhtmfxft-stack/6cddef9c-2b96-4292-abe9-027acb6b6b0b, Data = https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/20af7fbd-95a5-400f-accb-3221cb091d25?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDkpw%2BfA7KMIzSjrqvZZu9sNoWtGDrufHUb%2FzcKz5VX9QIhAJx57C5EsJvabDa5cY97pTNxEk71EvM4r3c%2BnC71faHpKu0CCGIQABoMMjU3MTcyMzkxMTQ5IgyyTcEv8V7WUnXYTmIqygLy2nTGkr6gBSgwQih9ZBL6SQ%2BS6KsXU682lwYj%2FhSgekyc9ZwLVzfHG2LHV%2FtjGUBe4Xd170lceyILb5l9aB2usrMSMxlugrQ0q41q8wF%2FzHLST6NDNPgiGoGkOcenAEe22XoJn6l5amwHm7DjOtUMOsjjcBvx8QchhLvjsy4n0P3y8r9%2BouQpAkVpzurGu9RqPh0qmt4J%2FGp4c0FDS%2FB2Fj0m%2BxG6eAcODViNIDntsYj0VzYhYigmtoH2mtNyw2GheRH2JemsIYik8xKnmZXaoY2zpWYe%2FkiQ%2BZQEVj5T6U3Cji52Lbsq%2F8HxozzX7%2FZeyOVbkP3%2Fuui45Loe9Yinc8HCwZMDIND7wd%2BC3kFavHguRJATAhLsiKibeDvbcpn1OliyRNQkFKPwlmlGwilPndVQ45WbS8v4FmX9DBB0tToptY0HTNs1FpMwrLCjyAY6vAGugXBg3%2Bx51Did1T6mbyThiUVGu1X4g1fDtx4SGQmhYlh1RBzZbBGQlgRNM2sn3dWzZq1W8EkZb90OwFzFK%2B8B0Nn8WAhVS%2F7OiXUDJGW8n1YZbixfcOqrYVvJGeGtf4gqmW%2BrhuoaD%2BZSUUcGVn1wDh%2BoSaPdMVcBj50gkwp%2FmcTAC5iZUBHjqjin%2Bk%2F0pKYMQ5zw67uJJCLNPQ1dcqN%2B%2BPsZphqAVUDnQ3Vg47gMeIYOF5Q4pETzkZoLNA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T164843Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITWUZHU4HKB%2F20251103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ddfde3f61d0e370f02507f5f103ff3d1384377b1d13a6407a698f36e9af3174a
+2025-11-03 16:48:43,672 DEBUG 1 CfnCommandWrapperApp.Command - Reading command data from S3: https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/20af7fbd-95a5-400f-accb-3221cb091d25?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDkpw%2BfA7KMIzSjrqvZZu9sNoWtGDrufHUb%2FzcKz5VX9QIhAJx57C5EsJvabDa5cY97pTNxEk71EvM4r3c%2BnC71faHpKu0CCGIQABoMMjU3MTcyMzkxMTQ5IgyyTcEv8V7WUnXYTmIqygLy2nTGkr6gBSgwQih9ZBL6SQ%2BS6KsXU682lwYj%2FhSgekyc9ZwLVzfHG2LHV%2FtjGUBe4Xd170lceyILb5l9aB2usrMSMxlugrQ0q41q8wF%2FzHLST6NDNPgiGoGkOcenAEe22XoJn6l5amwHm7DjOtUMOsjjcBvx8QchhLvjsy4n0P3y8r9%2BouQpAkVpzurGu9RqPh0qmt4J%2FGp4c0FDS%2FB2Fj0m%2BxG6eAcODViNIDntsYj0VzYhYigmtoH2mtNyw2GheRH2JemsIYik8xKnmZXaoY2zpWYe%2FkiQ%2BZQEVj5T6U3Cji52Lbsq%2F8HxozzX7%2FZeyOVbkP3%2Fuui45Loe9Yinc8HCwZMDIND7wd%2BC3kFavHguRJATAhLsiKibeDvbcpn1OliyRNQkFKPwlmlGwilPndVQ45WbS8v4FmX9DBB0tToptY0HTNs1FpMwrLCjyAY6vAGugXBg3%2Bx51Did1T6mbyThiUVGu1X4g1fDtx4SGQmhYlh1RBzZbBGQlgRNM2sn3dWzZq1W8EkZb90OwFzFK%2B8B0Nn8WAhVS%2F7OiXUDJGW8n1YZbixfcOqrYVvJGeGtf4gqmW%2BrhuoaD%2BZSUUcGVn1wDh%2BoSaPdMVcBj50gkwp%2FmcTAC5iZUBHjqjin%2Bk%2F0pKYMQ5zw67uJJCLNPQ1dcqN%2B%2BPsZphqAVUDnQ3Vg47gMeIYOF5Q4pETzkZoLNA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251103T164843Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITWUZHU4HKB%2F20251103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ddfde3f61d0e370f02507f5f103ff3d1384377b1d13a6407a698f36e9af3174a
+2025-11-03 16:48:43,844 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Trying to get Metadata with Key AWS::ElasticBeanstalk::Ext._API._Commands.CMD-TailLogs._Stages from cache for Request ID 1984c62e-85f4-470e-be29-631511b54fce
+2025-11-03 16:48:43,844 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Metadata cache file does not exist; file path: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-1984c62e-85f4-470e-be29-631511b54fce
+2025-11-03 16:48:43,844 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe -v -r AWSEBAutoScalingGroup -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 --region us-east-1
+2025-11-03 16:48:43,844 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: 1984c62e-85f4-470e-be29-631511b54fce, retry 0
+2025-11-03 16:48:45,782 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-11-03 16:48:45,797 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-11-03 16:48:45,797 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-1984c62e-85f4-470e-be29-631511b54fce
+2025-11-03 16:48:45,797 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_enact":["InfoTask-TailLogs"]}
+2025-11-03 16:48:45,797 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-TailLogs' (stage 'None'): InfoTask-TailLogs
+2025-11-03 16:48:46,844 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-11-03 16:48:46,844 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c InfoTask-TailLogs
+2025-10-30 21:43:22,456 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: d36e80ba-a66c-4fdc-988b-45c4fefdbdaa, retry 0
+2025-10-30 21:43:23,972 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-10-30 21:43:23,972 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-10-30 21:43:23,972 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-d36e80ba-a66c-4fdc-988b-45c4fefdbdaa
+2025-10-30 21:43:23,972 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_enact":["InfoTask-BundleLogs"]}
+2025-10-30 21:43:23,972 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-BundleLogs' (stage 'None'): InfoTask-BundleLogs
+2025-10-30 21:43:25,003 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-10-30 21:43:25,003 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c InfoTask-BundleLogs
+2025-10-30 21:44:40,880 INFO 1 CfnCommandWrapperApp.CommandWrapper - Command: Id = 2ee143e1-c7da-4604-bca4-c5bfdb4b6f3a, Dispatcher = arn:aws:cloudformation:us-east-1:921125571273:dispatcher/awseb-e-crzhtmfxft-stack/6cddef9c-2b96-4292-abe9-027acb6b6b0b, Data = https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/2c904471-2778-4920-b425-85b66c33e9f8?X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLWVhc3QtMSJHMEUCIGlzi7tyDUyOcsKdF8Nk5eji1lvv2BOyRcYVQVYbAhJrAiEA8dcyNP%2FTmoym83lDSidwcaYZugJ3wUNUusHBVwuQIOoq9gII9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNTcxNzIzOTExNDkiDDC%2FbE6WW8LmKLiQrirKAsyArQZHL1P4YDsoWRjw6b6vA3I17k2w4G8o2vz3t7KTZDWTrV3nnKlcGjyZ%2F5iQ70zgxr7nAYZz0CXdXEqyBE%2B1jKLToRBj0BsZYqztJozSG0NQhb0pUi2Ep%2FsjN4Yy0XVAeraBykUCYyOqyyvqCH1EMDEVB%2FAcZIdo9OND27Zu%2FOHE6YE13whGxJ06SquC2il5SapxbhRzC84%2FGynPyfmfodzED%2F8x6jCq3i3vMnael%2BRqhasdhG82Wc%2BRLwMHQpPXiqFI6%2F2kMdY84ZV4YNpl6w6GvCAE%2F%2FqZBA7%2F%2FEMHvvq8IYwdp4oofy1ea2pubQ%2FwwSVoVrntzR5Q53mEEgUfle1aCecXkEcHE114cCIXhjS%2BydLQAw81oMRCGT3FmlVH3KlejxnsaQp%2BdKgX%2BVmR9aTj23INTSPLgy5JHQ5TK3sQQbUJ1bUnhjCnto%2FIBjq9AeyLkI%2B5NEedpyqWKP7aiVWSBJbQjj9YU0kxJbrPS05TsWsDCfPjpJ6RshWmPquDoZhGhDoiT4YQvCcdS8HmFJAD1qmx4hBrl5irXht7odh8L959OzKj%2FQ%2FRU0lIYmdfjaUnhriRHBqNkbxufl6Ddqx2iTOaEDFdHuvaC4XMDtsLI7QB0Ve4%2FXxqptfk9h2czcTj93bifSl5kwTOAK7U0IoGKa4McPfiHoKUIEFKqH4Re%2BYZ%2B9dS2l7nREi6%2BQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T214440Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITWWMSYP3AJ%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d0eab372b9ddf82807f835d1be52e0919cbdebdc6bcfe38cf10be2178e2cb933
+2025-10-30 21:44:40,880 DEBUG 1 CfnCommandWrapperApp.Command - Reading command data from S3: https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/2c904471-2778-4920-b425-85b66c33e9f8?X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLWVhc3QtMSJHMEUCIGlzi7tyDUyOcsKdF8Nk5eji1lvv2BOyRcYVQVYbAhJrAiEA8dcyNP%2FTmoym83lDSidwcaYZugJ3wUNUusHBVwuQIOoq9gII9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNTcxNzIzOTExNDkiDDC%2FbE6WW8LmKLiQrirKAsyArQZHL1P4YDsoWRjw6b6vA3I17k2w4G8o2vz3t7KTZDWTrV3nnKlcGjyZ%2F5iQ70zgxr7nAYZz0CXdXEqyBE%2B1jKLToRBj0BsZYqztJozSG0NQhb0pUi2Ep%2FsjN4Yy0XVAeraBykUCYyOqyyvqCH1EMDEVB%2FAcZIdo9OND27Zu%2FOHE6YE13whGxJ06SquC2il5SapxbhRzC84%2FGynPyfmfodzED%2F8x6jCq3i3vMnael%2BRqhasdhG82Wc%2BRLwMHQpPXiqFI6%2F2kMdY84ZV4YNpl6w6GvCAE%2F%2FqZBA7%2F%2FEMHvvq8IYwdp4oofy1ea2pubQ%2FwwSVoVrntzR5Q53mEEgUfle1aCecXkEcHE114cCIXhjS%2BydLQAw81oMRCGT3FmlVH3KlejxnsaQp%2BdKgX%2BVmR9aTj23INTSPLgy5JHQ5TK3sQQbUJ1bUnhjCnto%2FIBjq9AeyLkI%2B5NEedpyqWKP7aiVWSBJbQjj9YU0kxJbrPS05TsWsDCfPjpJ6RshWmPquDoZhGhDoiT4YQvCcdS8HmFJAD1qmx4hBrl5irXht7odh8L959OzKj%2FQ%2FRU0lIYmdfjaUnhriRHBqNkbxufl6Ddqx2iTOaEDFdHuvaC4XMDtsLI7QB0Ve4%2FXxqptfk9h2czcTj93bifSl5kwTOAK7U0IoGKa4McPfiHoKUIEFKqH4Re%2BYZ%2B9dS2l7nREi6%2BQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T214440Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITWWMSYP3AJ%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d0eab372b9ddf82807f835d1be52e0919cbdebdc6bcfe38cf10be2178e2cb933
+2025-10-30 21:44:41,051 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Trying to get Metadata with Key AWS::ElasticBeanstalk::Ext._API._Commands.CMD-AppDeploy._Stages from cache for Request ID f3913f9e-9c21-4f3b-8c7a-5cf644c20f72
+2025-10-30 21:44:41,051 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Metadata cache file does not exist; file path: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-f3913f9e-9c21-4f3b-8c7a-5cf644c20f72
+2025-10-30 21:44:41,051 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe -v -r AWSEBAutoScalingGroup -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 --region us-east-1
+2025-10-30 21:44:41,051 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: f3913f9e-9c21-4f3b-8c7a-5cf644c20f72, retry 0
+2025-10-30 21:44:42,551 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-10-30 21:44:42,567 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-10-30 21:44:42,567 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-f3913f9e-9c21-4f3b-8c7a-5cf644c20f72
+2025-10-30 21:44:42,567 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_pre":["Infra-WriteRuntimeConfig","Infra-EmbeddedPreBuild","Hook-PreAppDeploy","Infra-EmbeddedPostBuild"],"02_enact":["Hook-EnactAppDeploy","Hook-PostAppDeploy"]}
+2025-10-30 21:44:42,567 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-AppDeploy' (stage 'None'): Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-10-30 21:44:43,583 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-10-30 21:44:43,583 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c Infra-WriteRuntimeConfig,Infra-EmbeddedPreBuild,Hook-PreAppDeploy,Infra-EmbeddedPostBuild,Hook-EnactAppDeploy,Hook-PostAppDeploy
+2025-10-30 22:11:21,225 INFO 1 CfnCommandWrapperApp.CommandWrapper - Command: Id = e64d6fa2-7aa8-4247-8f68-7482c47a8c81, Dispatcher = arn:aws:cloudformation:us-east-1:921125571273:dispatcher/awseb-e-crzhtmfxft-stack/6cddef9c-2b96-4292-abe9-027acb6b6b0b, Data = https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/70d6d515-2ba6-41cc-809a-897a95d1eae5?X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLWVhc3QtMSJHMEUCIQCpNYP9BUnqzHjOsd8x1J4n%2BV9xBEyj%2BIUt9YXRqn7yHAIgaHiIS%2FVJ1dkV3UD5NW0a39Fo2N5ye1bZs1%2FSNF6bbkgq9gII9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNTcxNzIzOTExNDkiDAUO%2B0GfjwLQ%2Fnjf1yrKAgh7oDEj0Bq74nYDxFR8AmUN9DGtNYjiJaxmDHCoBwwtIfzPgd26eAOPgdksWMG8obZn6hw6lbWTzS2SQ5%2B8vcBi80cmeny4uhdj3j9UhFz5XfiOFp3MOd2x2lU9mpaYElcH2fz7sHcXlB0YA8PioLieY3icWa5fWsOmpjPwidiek070L4G4xMqGyoT3TcopGF7V4P554mnheh%2FFYMvhvYXWG2aoFTjQZAUHg%2FyzbdtesR7Rhvx0a%2F%2B80%2FhOdNlbLRVkIbdIiTfbWHefr%2BB12m4rDrtFQqAUvmXDdRxwS03Gl5XYaxnnoFWWrmlqMEGtmpY0SkWP2Z5jvcanbU0%2F50hRZBZ4LFONrPgLZZcQH%2BdCjaMSLfxIzL1G5kCVJyit7MeLD3eJyXWIL38mls62XtaSWu0YFcUS864fSu9rbyOeCFAg09D9r1mqajCrso%2FIBjq9AS%2Bp00YKRsTACG0iSEl4z1%2FYuvgQyvurZC0gqYV879UpWVHSdb%2B2dyJAMfn1wslrpfq7RNKFkcyBJ964pqjBqLfq%2F0rmcTPeOTZKbmzOtaAmLXaVNcANr73TUS%2FL0tu80V0360TSEteFQ7fnXCOV7O8QMTPzAXkNdvG%2FWMP8vJkfAvsyfyF8ppI9hPtkG2vceuB0zdE%2Bzhs8fLr99LwRRrH7P48nu0Xn1fYwobqH8%2FGvXK6m046aN2aL%2F52q4Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T221120Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITWRYD2QEDK%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1ca5d5eb206c0bee2465940bcebb88d3766a1a0d062b722076925d69209f4eb8
+2025-10-30 22:11:21,241 DEBUG 1 CfnCommandWrapperApp.Command - Reading command data from S3: https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/70d6d515-2ba6-41cc-809a-897a95d1eae5?X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLWVhc3QtMSJHMEUCIQCpNYP9BUnqzHjOsd8x1J4n%2BV9xBEyj%2BIUt9YXRqn7yHAIgaHiIS%2FVJ1dkV3UD5NW0a39Fo2N5ye1bZs1%2FSNF6bbkgq9gII9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNTcxNzIzOTExNDkiDAUO%2B0GfjwLQ%2Fnjf1yrKAgh7oDEj0Bq74nYDxFR8AmUN9DGtNYjiJaxmDHCoBwwtIfzPgd26eAOPgdksWMG8obZn6hw6lbWTzS2SQ5%2B8vcBi80cmeny4uhdj3j9UhFz5XfiOFp3MOd2x2lU9mpaYElcH2fz7sHcXlB0YA8PioLieY3icWa5fWsOmpjPwidiek070L4G4xMqGyoT3TcopGF7V4P554mnheh%2FFYMvhvYXWG2aoFTjQZAUHg%2FyzbdtesR7Rhvx0a%2F%2B80%2FhOdNlbLRVkIbdIiTfbWHefr%2BB12m4rDrtFQqAUvmXDdRxwS03Gl5XYaxnnoFWWrmlqMEGtmpY0SkWP2Z5jvcanbU0%2F50hRZBZ4LFONrPgLZZcQH%2BdCjaMSLfxIzL1G5kCVJyit7MeLD3eJyXWIL38mls62XtaSWu0YFcUS864fSu9rbyOeCFAg09D9r1mqajCrso%2FIBjq9AS%2Bp00YKRsTACG0iSEl4z1%2FYuvgQyvurZC0gqYV879UpWVHSdb%2B2dyJAMfn1wslrpfq7RNKFkcyBJ964pqjBqLfq%2F0rmcTPeOTZKbmzOtaAmLXaVNcANr73TUS%2FL0tu80V0360TSEteFQ7fnXCOV7O8QMTPzAXkNdvG%2FWMP8vJkfAvsyfyF8ppI9hPtkG2vceuB0zdE%2Bzhs8fLr99LwRRrH7P48nu0Xn1fYwobqH8%2FGvXK6m046aN2aL%2F52q4Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T221120Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITWRYD2QEDK%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1ca5d5eb206c0bee2465940bcebb88d3766a1a0d062b722076925d69209f4eb8
+2025-10-30 22:11:21,412 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Trying to get Metadata with Key AWS::ElasticBeanstalk::Ext._API._Commands.CMD-AppDeploy._Stages from cache for Request ID e4545fd4-c119-4b13-9a07-701691ec5712
+2025-10-30 22:11:21,412 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Metadata cache file does not exist; file path: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-e4545fd4-c119-4b13-9a07-701691ec5712
+2025-10-30 22:11:21,412 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe -v -r AWSEBAutoScalingGroup -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 --region us-east-1
+2025-10-30 22:11:21,412 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: e4545fd4-c119-4b13-9a07-701691ec5712, retry 0
+2025-10-30 22:11:22,960 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-10-30 22:11:22,960 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-10-30 22:11:22,960 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-e4545fd4-c119-4b13-9a07-701691ec5712
+2025-10-30 22:11:22,960 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_pre":["Infra-WriteRuntimeConfig","Infra-EmbeddedPreBuild","Hook-PreAppDeploy","Infra-EmbeddedPostBuild"],"02_enact":["Hook-EnactAppDeploy","Hook-PostAppDeploy"]}
+2025-10-30 22:11:22,960 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-AppDeploy' (stage 'None'): Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-10-30 22:11:23,991 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-10-30 22:11:23,991 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c Infra-WriteRuntimeConfig,Infra-EmbeddedPreBuild,Hook-PreAppDeploy,Infra-EmbeddedPostBuild,Hook-EnactAppDeploy,Hook-PostAppDeploy
+2025-10-30 23:07:50,270 INFO 1 CfnCommandWrapperApp.CommandWrapper - Command: Id = d81c1475-3779-457c-a58d-43e8f5897765, Dispatcher = arn:aws:cloudformation:us-east-1:921125571273:dispatcher/awseb-e-crzhtmfxft-stack/6cddef9c-2b96-4292-abe9-027acb6b6b0b, Data = https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/d87c4d4e-0a08-45d7-956b-7af423e98c1c?X-Amz-Security-Token=IQoJb3JpZ2luX2VjED8aCXVzLWVhc3QtMSJGMEQCIBC576a%2F7O0apbqI%2Bi7e1gwlT5gqd7bHN1frdcDB1Wl6AiB8gEVBv0EPrRLuaa1SgmrVIP%2FMjNBtLGIpkztOTZkljyr2Agj4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDI1NzE3MjM5MTE0OSIMsneEUlLcphAChAnQKsoCiWAUwNXmHVgt%2F%2FZ48XqLvfW%2BUzASK9SqWnBK51GjompClpiXHn7RW1KjQBiCkaDLGNwYcsWdw2y1sbedk9q%2FxzOUv2y6HG1pLfldh%2BPhIqF55nXS%2FnFgz0XwbsEZU21vFavVrS%2Fesnou34%2FVK7lQPPsc%2Fl0jKC%2FmiIe%2FsK9NNbPc5XjZNzvY51bZuN3exI4EaFJ9dWpEmyfgdYgZwZDPn3OIOUQp%2FuuRDyYyB5O2640vzznOMicQdZ%2BCQSfVCNA5vFZTttU2Nqtf5eTss%2BA5p%2B2o3PBiswC81v%2BJJfY0G%2BKm6sTlu4eiUKzBxq9HBCww9koKOQHLWziwenWPmOX5MjKNC3U0GnYR%2BL%2BO1lFpIvDXad5nsF0MB6PTfGgIr3ah0yS52uXTtVEOL3MwxvXd0qiA7GidHTmSYLE3I37DJI26IUGY4HJcWorfMIrMj8gGOr4B4jcSynJNct%2BdMQ%2B46fHsUTPAbg14WgOE%2BhAYUMqwlbcuYQNzlTyq3%2Fxh05fx9DFAnM%2BXM7khxEJi0aVangSADUkfU8H9goOyj%2FQZ7xewUqARAWKgEwUKxrV9Pm7vrFnl20YLp5t7lTyAmD6vI1IS2%2BAtLHNDYDd22XF3ljI9X70VMXu2ReK0eQO1uJKzIlWmvEQ2rq209%2BCm%2FegfHs6EbOwcIpFX1Y0VD0Mhij56J0uHtOpj69OKrTPetmTcOA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T230749Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW4DVAXMCW%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3f5e3a23860a8ab61f07d02983fb06bea2f78710b73c1126547a816d6935a383
+2025-10-30 23:07:50,270 DEBUG 1 CfnCommandWrapperApp.Command - Reading command data from S3: https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/d87c4d4e-0a08-45d7-956b-7af423e98c1c?X-Amz-Security-Token=IQoJb3JpZ2luX2VjED8aCXVzLWVhc3QtMSJGMEQCIBC576a%2F7O0apbqI%2Bi7e1gwlT5gqd7bHN1frdcDB1Wl6AiB8gEVBv0EPrRLuaa1SgmrVIP%2FMjNBtLGIpkztOTZkljyr2Agj4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDI1NzE3MjM5MTE0OSIMsneEUlLcphAChAnQKsoCiWAUwNXmHVgt%2F%2FZ48XqLvfW%2BUzASK9SqWnBK51GjompClpiXHn7RW1KjQBiCkaDLGNwYcsWdw2y1sbedk9q%2FxzOUv2y6HG1pLfldh%2BPhIqF55nXS%2FnFgz0XwbsEZU21vFavVrS%2Fesnou34%2FVK7lQPPsc%2Fl0jKC%2FmiIe%2FsK9NNbPc5XjZNzvY51bZuN3exI4EaFJ9dWpEmyfgdYgZwZDPn3OIOUQp%2FuuRDyYyB5O2640vzznOMicQdZ%2BCQSfVCNA5vFZTttU2Nqtf5eTss%2BA5p%2B2o3PBiswC81v%2BJJfY0G%2BKm6sTlu4eiUKzBxq9HBCww9koKOQHLWziwenWPmOX5MjKNC3U0GnYR%2BL%2BO1lFpIvDXad5nsF0MB6PTfGgIr3ah0yS52uXTtVEOL3MwxvXd0qiA7GidHTmSYLE3I37DJI26IUGY4HJcWorfMIrMj8gGOr4B4jcSynJNct%2BdMQ%2B46fHsUTPAbg14WgOE%2BhAYUMqwlbcuYQNzlTyq3%2Fxh05fx9DFAnM%2BXM7khxEJi0aVangSADUkfU8H9goOyj%2FQZ7xewUqARAWKgEwUKxrV9Pm7vrFnl20YLp5t7lTyAmD6vI1IS2%2BAtLHNDYDd22XF3ljI9X70VMXu2ReK0eQO1uJKzIlWmvEQ2rq209%2BCm%2FegfHs6EbOwcIpFX1Y0VD0Mhij56J0uHtOpj69OKrTPetmTcOA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T230749Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW4DVAXMCW%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3f5e3a23860a8ab61f07d02983fb06bea2f78710b73c1126547a816d6935a383
+2025-10-30 23:07:50,441 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Trying to get Metadata with Key AWS::ElasticBeanstalk::Ext._API._Commands.CMD-AppDeploy._Stages from cache for Request ID 3093fc20-36d7-4291-85b2-d8afd650e0f6
+2025-10-30 23:07:50,441 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Metadata cache file does not exist; file path: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-3093fc20-36d7-4291-85b2-d8afd650e0f6
+2025-10-30 23:07:50,441 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe -v -r AWSEBAutoScalingGroup -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 --region us-east-1
+2025-10-30 23:07:50,441 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: 3093fc20-36d7-4291-85b2-d8afd650e0f6, retry 0
+2025-10-30 23:07:51,973 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-10-30 23:07:51,973 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-10-30 23:07:51,973 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-3093fc20-36d7-4291-85b2-d8afd650e0f6
+2025-10-30 23:07:51,973 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_pre":["Infra-WriteRuntimeConfig","Infra-EmbeddedPreBuild","Hook-PreAppDeploy","Infra-EmbeddedPostBuild"],"02_enact":["Hook-EnactAppDeploy","Hook-PostAppDeploy"]}
+2025-10-30 23:07:51,973 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-AppDeploy' (stage 'None'): Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-10-30 23:07:52,989 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-10-30 23:07:52,989 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c Infra-WriteRuntimeConfig,Infra-EmbeddedPreBuild,Hook-PreAppDeploy,Infra-EmbeddedPostBuild,Hook-EnactAppDeploy,Hook-PostAppDeploy
+2025-10-30 23:11:31,336 INFO 1 CfnCommandWrapperApp.CommandWrapper - Command: Id = e5221c8e-fe34-4f5f-b392-f5045e54c18c, Dispatcher = arn:aws:cloudformation:us-east-1:921125571273:dispatcher/awseb-e-crzhtmfxft-stack/6cddef9c-2b96-4292-abe9-027acb6b6b0b, Data = https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/2b596a14-bb47-4b26-bd7a-56717b506961?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLWVhc3QtMSJGMEQCIGio2OQGIMrf9fsSUS%2F6T84rPUsk9%2Fi6qYv6CP16Gh6yAiBV8%2FoYr0qHD6L0fCZ%2B00Y3n5WA1O147ULChBiM30vKhyr2Agj4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDI1NzE3MjM5MTE0OSIMKJMFk52l%2FgIZKLVmKsoCoafkkd9UYzuqD%2F76RUn8%2BektQ1wJdkS61MZuNqRrfljukipAMiOINPanQcQP0WyNi9CQ4xSAi7TjvX6d9azQSbv0Jwy%2Bp40YIlAXKh7uvemN2%2FL%2FM8QCpn4Dqu5FTEB9tFuGspTj7PQY85Ztx6AqgcnLVbIlXj2Q662EilIVD0gH8k3GXDMZLsTZmO0D6ajRpJC%2FvbiRotM50aI4Zlkm9iOXFTP4G6DESjthNzxlshwjwoCDdO955cEF2fLQvxWMh6LF405SMkzprn%2FLRLgIvrp6iYTOEtFRR81WtvnmuKZqEEaxL1FcfsjEOnGWDbdPkESNIS6JuTSDOMnekdzZJvTk0U4V6knVioM36I38rLyxAsfipoTjhxq5RXnt0e4m16cQUMh61Qo9KhKbH65Jx0%2B1IL87p3mpIxRoB5dQwTo42du36x8DXSFvMJnej8gGOr4BQkrxncvSQSD0GwZ%2Fbzce%2FBacpIIndanj4ZkbOebJoUHilZ0Qx7KkWxSngq%2FXHOZz73roVpTS0H%2FWY8WigmR%2B%2Fkl%2FvnpM71yPmtB1sWoBySDtLm9j7oGxi%2BHFl04Nv3WTk4OXvvYn6qERi4sjId9QnFCJzSD%2BlBjXaH7lM%2BIvrGaNBUXyA84HTqNzAPTFd8JXl6C0SKNKKjimtEvQEBxyMRrBCNr6DmcW9TShWvKDOd5OYnwhnBUh6nUE42ByvA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T231131Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW676NQJYO%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1f2f643193710e072b837d22278d0c96e99512c0dd16e6a7727a6a8fec060221
+2025-10-30 23:11:31,336 DEBUG 1 CfnCommandWrapperApp.Command - Reading command data from S3: https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/2b596a14-bb47-4b26-bd7a-56717b506961?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLWVhc3QtMSJGMEQCIGio2OQGIMrf9fsSUS%2F6T84rPUsk9%2Fi6qYv6CP16Gh6yAiBV8%2FoYr0qHD6L0fCZ%2B00Y3n5WA1O147ULChBiM30vKhyr2Agj4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDI1NzE3MjM5MTE0OSIMKJMFk52l%2FgIZKLVmKsoCoafkkd9UYzuqD%2F76RUn8%2BektQ1wJdkS61MZuNqRrfljukipAMiOINPanQcQP0WyNi9CQ4xSAi7TjvX6d9azQSbv0Jwy%2Bp40YIlAXKh7uvemN2%2FL%2FM8QCpn4Dqu5FTEB9tFuGspTj7PQY85Ztx6AqgcnLVbIlXj2Q662EilIVD0gH8k3GXDMZLsTZmO0D6ajRpJC%2FvbiRotM50aI4Zlkm9iOXFTP4G6DESjthNzxlshwjwoCDdO955cEF2fLQvxWMh6LF405SMkzprn%2FLRLgIvrp6iYTOEtFRR81WtvnmuKZqEEaxL1FcfsjEOnGWDbdPkESNIS6JuTSDOMnekdzZJvTk0U4V6knVioM36I38rLyxAsfipoTjhxq5RXnt0e4m16cQUMh61Qo9KhKbH65Jx0%2B1IL87p3mpIxRoB5dQwTo42du36x8DXSFvMJnej8gGOr4BQkrxncvSQSD0GwZ%2Fbzce%2FBacpIIndanj4ZkbOebJoUHilZ0Qx7KkWxSngq%2FXHOZz73roVpTS0H%2FWY8WigmR%2B%2Fkl%2FvnpM71yPmtB1sWoBySDtLm9j7oGxi%2BHFl04Nv3WTk4OXvvYn6qERi4sjId9QnFCJzSD%2BlBjXaH7lM%2BIvrGaNBUXyA84HTqNzAPTFd8JXl6C0SKNKKjimtEvQEBxyMRrBCNr6DmcW9TShWvKDOd5OYnwhnBUh6nUE42ByvA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T231131Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW676NQJYO%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1f2f643193710e072b837d22278d0c96e99512c0dd16e6a7727a6a8fec060221
+2025-10-30 23:11:31,523 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Trying to get Metadata with Key AWS::ElasticBeanstalk::Ext._API._Commands.CMD-AppDeploy._Stages from cache for Request ID f907aa5d-1582-4789-8d83-4e1c14d2c714
+2025-10-30 23:11:31,523 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Metadata cache file does not exist; file path: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-f907aa5d-1582-4789-8d83-4e1c14d2c714
+2025-10-30 23:11:31,523 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe -v -r AWSEBAutoScalingGroup -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 --region us-east-1
+2025-10-30 23:11:31,523 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: f907aa5d-1582-4789-8d83-4e1c14d2c714, retry 0
+2025-10-30 23:11:33,039 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-10-30 23:11:33,039 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-10-30 23:11:33,039 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-f907aa5d-1582-4789-8d83-4e1c14d2c714
+2025-10-30 23:11:33,054 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_pre":["Infra-WriteRuntimeConfig","Infra-EmbeddedPreBuild","Hook-PreAppDeploy","Infra-EmbeddedPostBuild"],"02_enact":["Hook-EnactAppDeploy","Hook-PostAppDeploy"]}
+2025-10-30 23:11:33,054 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-AppDeploy' (stage 'None'): Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-10-30 23:11:34,054 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-10-30 23:11:34,054 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c Infra-WriteRuntimeConfig,Infra-EmbeddedPreBuild,Hook-PreAppDeploy,Infra-EmbeddedPostBuild,Hook-EnactAppDeploy,Hook-PostAppDeploy
+2025-10-30 23:30:51,924 INFO 1 CfnCommandWrapperApp.CommandWrapper - Command: Id = a1acec15-3640-403f-913b-fd931360134e, Dispatcher = arn:aws:cloudformation:us-east-1:921125571273:dispatcher/awseb-e-crzhtmfxft-stack/6cddef9c-2b96-4292-abe9-027acb6b6b0b, Data = https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/d0a16fc3-4006-4815-b643-ba594176e35a?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLWVhc3QtMSJIMEYCIQC%2BsDmQk6Ol8OMUnrWuB4er0aJM4ovettOhIAIdttETYgIhALkJG2u9%2FN6UA8L4UdvlBrOOFSuTz%2F169bf9WfNLtBr2KvYCCPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjU3MTcyMzkxMTQ5Igy8kEx4%2BsQH1McTXPYqygKrj2mAZhwMnykUSD2MDBX83Z5mT8bYxKeYyfRnT%2F54IobBuC21b%2FmU%2FujY9Gs0w7LW%2BloWkPHAp6qosq2aoOkEZtm7X3EevaPFDK7PUtbhxeWnkckYzM7YQTL3a2%2BsRF9GhVpZtJdmnl7HdKYbZm3a1rCS9yVYFQ%2Bv8XPT7ucydOb2rT0WLgtQNzSAVF80U1Qs3dxTUgMz4Q7rh%2BI4bpnG1Mr4ylpZ8btuPG6CDJ3Gd7FqnSlcB8WslgvLZlKFq17ZgI7cHGNXfaN%2FWtC0IgLZzYBmVESlFAL0FcvIhAbPqRCmj0hW7hKua%2BD8TkbraXOGUb9kPSyFUMo%2BlmqUtRKylCMKwDubwIF7lpCQLxqB9%2FII0OCD%2FZYJD%2F92fD8ZwJR6y4V3S0uf%2BFSmQps8An3P%2FxPfD8pCCSdACkqmAaWyYfEXgS8P22vyqQ8wyeaPyAY6vAHGIADzi0uobiMXX1LiEdpob05IEcdsRpcjSDA%2F9nUNaHpuTRZnmcWKU7Nryjkzo1xkKiQMcIEJQxLy9XpsTccotJUasWBQ1QfMNisU8mIS0YlrqWDTY6Hh4NxSfiHf4Uf8lOUWoIWsyss0O0iqgQBLdVzq9bxqhUtQgpnvrD3flyxAKawigOXKX19QXZ203OxyWPqxfRA7BVQQov%2BA7sIekVVMkgyDzl3tnc2THnswdx6vpIG%2FECL62%2FKlVQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T233051Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW5AS43NWR%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=28df0cc0b1f20d0176551921a40f023c406004dc084479db26794626b6805131
+2025-10-30 23:30:51,939 DEBUG 1 CfnCommandWrapperApp.Command - Reading command data from S3: https://elasticbeanstalk-us-east-1.s3.amazonaws.com/data/environments/76a5760a-19d8-4c30-827f-ae2ec76b0202/d0a16fc3-4006-4815-b643-ba594176e35a?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLWVhc3QtMSJIMEYCIQC%2BsDmQk6Ol8OMUnrWuB4er0aJM4ovettOhIAIdttETYgIhALkJG2u9%2FN6UA8L4UdvlBrOOFSuTz%2F169bf9WfNLtBr2KvYCCPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjU3MTcyMzkxMTQ5Igy8kEx4%2BsQH1McTXPYqygKrj2mAZhwMnykUSD2MDBX83Z5mT8bYxKeYyfRnT%2F54IobBuC21b%2FmU%2FujY9Gs0w7LW%2BloWkPHAp6qosq2aoOkEZtm7X3EevaPFDK7PUtbhxeWnkckYzM7YQTL3a2%2BsRF9GhVpZtJdmnl7HdKYbZm3a1rCS9yVYFQ%2Bv8XPT7ucydOb2rT0WLgtQNzSAVF80U1Qs3dxTUgMz4Q7rh%2BI4bpnG1Mr4ylpZ8btuPG6CDJ3Gd7FqnSlcB8WslgvLZlKFq17ZgI7cHGNXfaN%2FWtC0IgLZzYBmVESlFAL0FcvIhAbPqRCmj0hW7hKua%2BD8TkbraXOGUb9kPSyFUMo%2BlmqUtRKylCMKwDubwIF7lpCQLxqB9%2FII0OCD%2FZYJD%2F92fD8ZwJR6y4V3S0uf%2BFSmQps8An3P%2FxPfD8pCCSdACkqmAaWyYfEXgS8P22vyqQ8wyeaPyAY6vAHGIADzi0uobiMXX1LiEdpob05IEcdsRpcjSDA%2F9nUNaHpuTRZnmcWKU7Nryjkzo1xkKiQMcIEJQxLy9XpsTccotJUasWBQ1QfMNisU8mIS0YlrqWDTY6Hh4NxSfiHf4Uf8lOUWoIWsyss0O0iqgQBLdVzq9bxqhUtQgpnvrD3flyxAKawigOXKX19QXZ203OxyWPqxfRA7BVQQov%2BA7sIekVVMkgyDzl3tnc2THnswdx6vpIG%2FECL62%2FKlVQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251030T233051Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIATXYFLITW5AS43NWR%2F20251030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=28df0cc0b1f20d0176551921a40f023c406004dc084479db26794626b6805131
+2025-10-30 23:30:52,127 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Trying to get Metadata with Key AWS::ElasticBeanstalk::Ext._API._Commands.CMD-AppDeploy._Stages from cache for Request ID f1daa3bf-e2cb-40b5-9f18-d2ce19b0b9fa
+2025-10-30 23:30:52,127 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Metadata cache file does not exist; file path: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-f1daa3bf-e2cb-40b5-9f18-d2ce19b0b9fa
+2025-10-30 23:30:52,127 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe -v -r AWSEBAutoScalingGroup -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 --region us-east-1
+2025-10-30 23:30:52,127 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Calling cfn-get-metadata, request id: f1daa3bf-e2cb-40b5-9f18-d2ce19b0b9fa, retry 0
+2025-10-30 23:30:53,658 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - cfn-get-metadata exited with code 0
+2025-10-30 23:30:53,658 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Creating directory for cached metadata: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache
+2025-10-30 23:30:53,658 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Caching metadata to file: c:\Program Files\Amazon\ElasticBeanstalk\Tools\MetadataCache\metadata-cache-f1daa3bf-e2cb-40b5-9f18-d2ce19b0b9fa
+2025-10-30 23:30:53,658 DEBUG 1 AWSBeanstalkCfnUtility.ExecCfnMetadataProvider - Returned metadata: {"01_pre":["Infra-WriteRuntimeConfig","Infra-EmbeddedPreBuild","Hook-PreAppDeploy","Infra-EmbeddedPostBuild"],"02_enact":["Hook-EnactAppDeploy","Hook-PostAppDeploy"]}
+2025-10-30 23:30:53,658 DEBUG 1 CfnCommandWrapperApp.CommandWrapper - Config sets for command 'CMD-AppDeploy' (stage 'None'): Infra-WriteRuntimeConfig, Infra-EmbeddedPreBuild, Hook-PreAppDeploy, Infra-EmbeddedPostBuild, Hook-EnactAppDeploy, Hook-PostAppDeploy
+2025-10-30 23:30:54,705 DEBUG 1 CfnCommandWrapperApp.Command - This instance was elected leader
+2025-10-30 23:30:54,705 INFO 1 CfnCommandWrapperApp.Command - Calling c:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe -s arn:aws:cloudformation:us-east-1:921125571273:stack/awseb-e-crzhtmfxft-stack/7aefc200-b5d5-11f0-9113-0e84ef6b43c7 -r AWSEBAutoScalingGroup --region us-east-1 -c Infra-WriteRuntimeConfig,Infra-EmbeddedPreBuild,Hook-PreAppDeploy,Infra-EmbeddedPostBuild,Hook-EnactAppDeploy,Hook-PostAppDeploy
+
+BundleLogs.log:
+
+2025-10-30 21:43:26,284 WARN 1 BundleLogs - Path does not exist: C:\Windows\SystemTemp\BundleLogs_1761860606.zip
+2025-10-30 21:43:26,300 WARN 1 BundleLogs - Path does not exist: C:\Windows\SystemTemp\var
+2025-10-30 21:43:26,300 WARN 1 BundleLogs - Path does not exist: C:\Windows\SystemTemp\application_event_logs_1761860606.txt
+2025-10-30 21:43:26,300 INFO 1 BundleLogs - C:\ has sufficient disk space. Available: 13626 MB
+2025-10-30 21:43:26,456 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Looking for config files in c:\Program Files\Amazon\ElasticBeanstalk\config\bundlelogs.d
+2025-10-30 21:43:26,456 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Reading config file c:\Program Files\Amazon\ElasticBeanstalk\config\bundlelogs.d\cfn-system.conf
+2025-10-30 21:43:26,472 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Adding log directory c:\cfn\log
+2025-10-30 21:43:26,472 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Reading config file c:\Program Files\Amazon\ElasticBeanstalk\config\bundlelogs.d\eb-system.conf
+2025-10-30 21:43:26,487 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Adding log directory C:\Program Files\Amazon\ElasticBeanstalk\logs
+2025-10-30 21:43:26,487 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Adding log directory C:\Program Files\Amazon\ElasticBeanstalk\HealthD\Logs
+2025-10-30 21:43:26,487 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Adding log directory C:\inetpub\logs\LogFiles\W3SVC1
+2025-10-30 21:43:26,487 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Adding log directory C:\inetpub\logs\FailedReqLogFiles
+2025-10-30 21:43:26,487 DEBUG 1 AWSBeanstalkCfnUtility.LogInfo - Adding log directory C:\ProgramData\Amazon\EC2Launch\log
+2025-10-30 21:43:27,003 INFO 1 BundleLogs - Bundling logs to resources/environments/logs/bundle/e-crzhtmfxft/i-05d11b09fe181b50c/BundleLogs-1761860606.zip.
+2025-10-30 21:43:27,003 INFO 1 BundleLogs - Batch Id: d36e80ba-a66c-4fdc-988b-45c4fefdbdaa
+2025-10-30 21:43:27,191 DEBUG 1 AWSBeanstalkCfnUtility.S3Util - Attempting to upload data to environment bucket with instance role
+2025-10-30 21:43:27,675 DEBUG 1 AWSBeanstalkCfnUtility.S3Util - Uploaded to S3 using instance role.
+2025-10-30 21:43:27,675 INFO 1 BundleLogs - Uploaded file to s3
+2025-10-30 21:43:27,675 INFO 1 BundleLogs - Deleted file: C:\Windows\SystemTemp\BundleLogs_1761860606.zip
+2025-10-30 21:43:27,675 INFO 1 BundleLogs - Deleted directory: C:\Windows\SystemTemp\var
+2025-10-30 21:43:27,675 INFO 1 BundleLogs - Deleted file: C:\Windows\SystemTemp\application_event_logs_1761860606.txt
+
+Hooks.log:
+
+2025-11-03 16:44:21,940 INFO 1 HooksExecutor - Running 4 scripts found in C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre
+2025-11-03 16:44:21,956 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\00logstream.ps1
+2025-11-03 16:44:27,143 DEBUG 4 HooksExecutor - ****** Processing amazon-cloudwatch-agent ******
+2025-11-03 16:44:27,191 DEBUG 4 HooksExecutor - AmazonCloudWatchAgent has been stopped
+2025-11-03 16:44:27,206 DEBUG 4 HooksExecutor - [INFO] CloudWatch Agent turned off.
+2025-11-03 16:44:27,331 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\00logstream.ps1 exited with status 0.
+2025-11-03 16:44:27,331 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\01download_source_bundle.ps1
+2025-11-03 16:44:35,941 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\01download_source_bundle.ps1 exited with status 0.
+2025-11-03 16:44:35,941 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\02tmpextract.ps1
+2025-11-03 16:44:36,643 DEBUG 4 HooksExecutor -     Directory: C:\
+2025-11-03 16:44:36,643 DEBUG 4 HooksExecutor - Mode                 LastWriteTime         Length Name                                                                 
+2025-11-03 16:44:36,643 DEBUG 4 HooksExecutor - ----                 -------------         ------ ----                                                                 
+2025-11-03 16:44:36,643 DEBUG 4 HooksExecutor - d-----         11/3/2025   4:44 PM                staging                                                              
+2025-11-03 16:44:37,393 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\02tmpextract.ps1 exited with status 0.
+2025-11-03 16:44:37,393 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\03environmentvariables.ps1
+2025-11-03 16:44:40,034 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\03environmentvariables.ps1 exited with status 0.
+2025-11-03 16:44:40,346 INFO 1 HooksExecutor - Running 3 scripts found in C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact
+2025-11-03 16:44:40,346 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\00uninstall.ps1
+2025-11-03 16:44:42,190 DEBUG 4 HooksExecutor - Starting Deployment Tools
+2025-11-03 16:44:42,315 DEBUG 4 HooksExecutor - Find EB Event: C:\Windows\SystemTemp\tmpC65D.tmp
+2025-11-03 16:44:51,393 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\00uninstall.ps1 exited with status 0.
+2025-11-03 16:44:51,393 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\01deploy.ps1
+2025-11-03 16:44:52,128 DEBUG 5 HooksExecutor - Starting Deployment Tools
+2025-11-03 16:44:52,159 DEBUG 5 HooksExecutor - Find EB Event: C:\Windows\SystemTemp\tmpC65D.tmp
+2025-11-03 16:44:52,877 DEBUG 5 HooksExecutor -     Directory: C:\
+2025-11-03 16:44:52,877 DEBUG 5 HooksExecutor - Mode                 LastWriteTime         Length Name                                                                 
+2025-11-03 16:44:52,877 DEBUG 5 HooksExecutor - ----                 -------------         ------ ----                                                                 
+2025-11-03 16:44:52,877 DEBUG 5 HooksExecutor - d-----         11/3/2025   4:44 PM                staging-previous                                                     
+2025-11-03 16:44:53,080 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\01deploy.ps1 exited with status -2.
+2025-11-03 16:44:53,080 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\02services.ps1
+2025-11-03 16:44:53,799 DEBUG 4 HooksExecutor - Configuring Elastic Beanstalk services...
+2025-11-03 16:44:53,909 DEBUG 4 HooksExecutor - [XRay]
+2025-11-03 16:44:53,987 DEBUG 4 HooksExecutor - Already disabled
+2025-11-03 16:44:53,987 DEBUG 4 HooksExecutor - ...done
+2025-11-03 16:44:54,018 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\02services.ps1 exited with status 0.
+2025-10-30 23:12:01,836 DEBUG 5 HooksExecutor -     Directory: C:\
+2025-10-30 23:12:01,836 DEBUG 5 HooksExecutor - Mode                 LastWriteTime         Length Name                                                                 
+2025-10-30 23:12:01,836 DEBUG 5 HooksExecutor - ----                 -------------         ------ ----                                                                 
+2025-10-30 23:12:01,836 DEBUG 5 HooksExecutor - d-----        10/30/2025  11:12 PM                staging-previous                                                     
+2025-10-30 23:12:01,883 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\01deploy.ps1 exited with status 0.
+2025-10-30 23:12:01,883 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\02services.ps1
+2025-10-30 23:12:02,930 DEBUG 4 HooksExecutor - Configuring Elastic Beanstalk services...
+2025-10-30 23:12:03,009 DEBUG 4 HooksExecutor - [XRay]
+2025-10-30 23:12:03,039 DEBUG 4 HooksExecutor - Already disabled
+2025-10-30 23:12:03,039 DEBUG 4 HooksExecutor - ...done
+2025-10-30 23:12:03,055 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\02services.ps1 exited with status 0.
+2025-10-30 23:12:03,367 INFO 1 HooksExecutor - Running 3 scripts found in C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post
+2025-10-30 23:12:03,367 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\01clean.ps1
+2025-10-30 23:12:03,992 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\01clean.ps1 exited with status 0.
+2025-10-30 23:12:03,992 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\02reset.ps1
+2025-10-30 23:12:04,711 DEBUG 4 HooksExecutor - Starting Deployment Tools
+2025-10-30 23:12:04,742 DEBUG 4 HooksExecutor - Find EB Event: C:\Windows\SystemTemp\tmpE267.tmp
+2025-10-30 23:12:10,555 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\02reset.ps1 exited with status 0.
+2025-10-30 23:12:10,555 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\999stack_check.ps1
+2025-10-30 23:12:12,180 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\999stack_check.ps1 exited with status 0.
+2025-10-30 23:31:03,330 INFO 1 HooksExecutor - Running 4 scripts found in C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre
+2025-10-30 23:31:03,330 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\00logstream.ps1
+2025-10-30 23:31:04,268 DEBUG 4 HooksExecutor - ****** Processing amazon-cloudwatch-agent ******
+2025-10-30 23:31:04,283 DEBUG 4 HooksExecutor - AmazonCloudWatchAgent has been stopped
+2025-10-30 23:31:04,299 DEBUG 4 HooksExecutor - [INFO] CloudWatch Agent turned off.
+2025-10-30 23:31:04,315 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\00logstream.ps1 exited with status 0.
+2025-10-30 23:31:04,315 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\01download_source_bundle.ps1
+2025-10-30 23:31:09,533 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\01download_source_bundle.ps1 exited with status 0.
+2025-10-30 23:31:09,533 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\02tmpextract.ps1
+2025-10-30 23:31:10,127 DEBUG 5 HooksExecutor -     Directory: C:\
+2025-10-30 23:31:10,127 DEBUG 5 HooksExecutor - Mode                 LastWriteTime         Length Name                                                                 
+2025-10-30 23:31:10,127 DEBUG 5 HooksExecutor - ----                 -------------         ------ ----                                                                 
+2025-10-30 23:31:10,127 DEBUG 5 HooksExecutor - d-----        10/30/2025  11:31 PM                staging                                                              
+2025-10-30 23:31:10,252 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\02tmpextract.ps1 exited with status 0.
+2025-10-30 23:31:10,252 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\03environmentvariables.ps1
+2025-10-30 23:31:11,034 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\pre\03environmentvariables.ps1 exited with status 0.
+2025-10-30 23:31:11,330 INFO 1 HooksExecutor - Running 3 scripts found in C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact
+2025-10-30 23:31:11,346 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\00uninstall.ps1
+2025-10-30 23:31:11,971 DEBUG 4 HooksExecutor - Starting Deployment Tools
+2025-10-30 23:31:12,002 DEBUG 4 HooksExecutor - Find EB Event: C:\Windows\SystemTemp\tmp9837.tmp
+2025-10-30 23:31:19,580 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\00uninstall.ps1 exited with status 0.
+2025-10-30 23:31:19,580 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\01deploy.ps1
+2025-10-30 23:31:20,205 DEBUG 5 HooksExecutor - Starting Deployment Tools
+2025-10-30 23:31:20,252 DEBUG 5 HooksExecutor - Find EB Event: C:\Windows\SystemTemp\tmp9837.tmp
+2025-10-30 23:31:22,206 DEBUG 5 HooksExecutor -     Directory: C:\
+2025-10-30 23:31:22,221 DEBUG 5 HooksExecutor - Mode                 LastWriteTime         Length Name                                                                 
+2025-10-30 23:31:22,221 DEBUG 5 HooksExecutor - ----                 -------------         ------ ----                                                                 
+2025-10-30 23:31:22,221 DEBUG 5 HooksExecutor - d-----        10/30/2025  11:31 PM                staging-previous                                                     
+2025-10-30 23:31:22,252 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\01deploy.ps1 exited with status 0.
+2025-10-30 23:31:22,252 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\02services.ps1
+2025-10-30 23:31:23,269 DEBUG 4 HooksExecutor - Configuring Elastic Beanstalk services...
+2025-10-30 23:31:23,331 DEBUG 4 HooksExecutor - [XRay]
+2025-10-30 23:31:23,363 DEBUG 4 HooksExecutor - Already disabled
+2025-10-30 23:31:23,363 DEBUG 4 HooksExecutor - ...done
+2025-10-30 23:31:23,378 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\enact\02services.ps1 exited with status 0.
+2025-10-30 23:31:23,660 INFO 1 HooksExecutor - Running 3 scripts found in C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post
+2025-10-30 23:31:23,676 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\01clean.ps1
+2025-10-30 23:31:24,269 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\01clean.ps1 exited with status 0.
+2025-10-30 23:31:24,269 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\02reset.ps1
+2025-10-30 23:31:24,988 DEBUG 4 HooksExecutor - Starting Deployment Tools
+2025-10-30 23:31:25,019 DEBUG 4 HooksExecutor - Find EB Event: C:\Windows\SystemTemp\tmp9837.tmp
+2025-10-30 23:31:30,784 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\02reset.ps1 exited with status 0.
+2025-10-30 23:31:30,784 INFO 1 HooksExecutor - Executing C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\999stack_check.ps1
+2025-10-30 23:31:32,676 INFO 1 HooksExecutor - Script C:\Program Files\Amazon\ElasticBeanstalk\hooks\appdeploy\post\999stack_check.ps1 exited with status 0.
+
+PublishLogs.log:
+
+2025-11-03 00:18:02,108 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 01:18:02,100 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 02:18:02,113 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 03:18:02,101 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 04:18:05,315 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 05:18:03,483 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 06:18:03,629 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 07:18:02,326 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 08:18:02,152 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 09:18:02,187 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 10:18:02,861 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 11:18:02,364 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 12:18:02,640 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 13:18:02,351 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 14:18:02,181 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 15:18:03,493 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-03 16:18:02,380 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 00:18:01,867 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 01:18:01,879 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 02:18:05,291 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 03:18:03,835 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 04:18:02,126 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 05:18:02,420 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 06:18:03,347 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 07:18:02,127 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 08:18:01,947 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 09:18:01,961 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 10:18:02,635 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 11:18:02,165 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 12:18:01,965 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 13:18:02,388 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 14:18:02,171 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 15:18:02,739 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 16:18:02,176 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 17:18:02,009 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 18:18:02,033 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 19:18:02,319 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 20:18:02,367 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 21:18:02,799 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 22:18:03,942 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-02 23:18:02,050 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 00:18:05,978 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 01:18:03,195 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 02:18:03,167 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 03:18:01,843 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 04:18:02,309 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 05:18:01,917 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 06:18:03,156 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 07:18:02,893 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 08:18:02,672 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 09:18:03,420 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 10:18:01,945 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 11:18:02,561 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 12:18:01,897 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 13:18:03,079 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 14:18:01,916 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 15:18:01,756 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 16:18:01,786 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 17:18:01,782 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 18:18:01,790 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 19:18:03,375 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 20:18:03,123 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 21:18:03,247 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 22:18:03,726 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-11-01 23:18:01,836 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 00:18:01,430 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 01:18:01,406 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 02:18:01,417 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 03:18:01,835 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 04:18:01,441 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 05:18:01,450 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 06:18:03,205 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 07:18:03,125 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 08:18:02,315 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 09:18:02,839 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 10:18:02,942 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 11:18:01,725 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 12:18:03,337 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 13:18:02,195 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 14:18:01,628 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 15:18:02,768 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 16:18:01,736 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 17:18:01,556 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 18:18:01,567 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 19:18:01,583 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 20:18:01,595 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 21:18:02,911 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 22:18:03,588 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-31 23:18:01,612 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-30 22:18:01,593 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+2025-10-30 23:18:01,415 DEBUG 1 PublishLogs - Log publication disabled. Exiting
+
+u_ex25110316_x.log:
+
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 16:04:02
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 16:03:44 10.0.10.69 GET / - 80 - 185.242.226.102 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/88.0.4324.190+Safari/537.36 - 404 0 0 87
+2025-11-03 16:05:19 10.0.10.69 GET / - 80 - 149.50.97.212 Mozilla/5.0+(X11;+Linux+i686+(x86_64))+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.130+Safari/537.36 - 404 0 0 105
+2025-11-03 16:12:33 10.0.10.69 GET / - 80 - 43.130.174.37 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+13_2_3+like+Mac+OS+X)+AppleWebKit/605.1.15+(KHTML,+like+Gecko)+Version/13.0.3+Mobile/15E148+Safari/604.1 - 404 0 0 3
+2025-11-03 16:20:33 10.0.10.69 GET / - 80 - 87.121.84.17 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/105.0.0.0+Safari/537.36 - 404 0 0 91
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 16:47:58
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 16:47:55 10.0.10.69 GET /robots.txt - 80 - 51.158.54.10 xfa1 - 404 0 1236 13283
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 15:09:01
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 15:08:40 10.0.10.69 GET /api/fish/getAll - 80 - 64.252.68.8 Amazon+CloudFront - 200 0 0 661
+2025-11-03 15:11:52 10.0.10.69 GET / - 80 - 3.86.115.154 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/136.0.0.0+Safari/537.36 - 404 0 0 4
+2025-11-03 15:17:07 10.0.10.69 GET / - 80 - 204.76.203.219 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/90.0.4430.85+Safari/537.36+Edg/90.0.818.46 - 404 0 0 91
+2025-11-03 15:27:42 10.0.10.69 GET /.env - 80 - 198.20.191.77 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/116.0.5845.140+Safari/537.36 - 404 0 0 59
+2025-11-03 15:27:42 10.0.10.69 POST / - 80 - 198.20.191.77 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/116.0.5845.140+Safari/537.36 - 404 0 0 58
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 14:38:01
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 14:37:45 10.0.10.69 GET / - 80 - 87.121.84.17 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/105.0.0.0+Safari/537.36 - 404 0 0 94
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 13:14:30
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 13:14:09 10.0.10.69 GET / - 80 - 204.76.203.219 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/90.0.4430.85+Safari/537.36+Edg/90.0.818.46 - 404 0 0 96
+2025-11-03 13:15:52 10.0.10.69 GET /.git/config - 80 - 195.178.110.109 Mozilla/5.0+(Windows+NT+10.0;+rv:91.0)+Gecko/20100101+Firefox/91.0 - 404 0 0 81
+2025-11-03 13:15:55 10.0.10.69 GET / - 80 - 195.178.110.109 - - 404 0 0 82
+2025-11-03 13:33:34 10.0.10.69 GET / - 80 - 34.70.41.103 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/122.0.0.0+Safari/537.36 - 404 0 0 29
+2025-11-03 13:33:34 10.0.10.69 GET /.git/config - 80 - 34.70.41.103 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/122.0.0.0+Safari/537.36 - 404 0 0 29
+2025-11-03 13:33:34 10.0.10.69 GET /php.php - 80 - 34.70.41.103 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/122.0.0.0+Safari/537.36 - 404 0 0 30
+2025-11-03 13:33:34 10.0.10.69 GET /phpinfo.php - 80 - 34.70.41.103 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/122.0.0.0+Safari/537.36 - 404 0 0 30
+2025-11-03 13:33:34 10.0.10.69 GET /test.php - 80 - 34.70.41.103 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/122.0.0.0+Safari/537.36 - 404 0 0 30
+2025-11-03 13:43:28 10.0.10.69 GET /.git/config - 80 - 94.26.88.18 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/81.0.4044.129+Safari/537.36 - 404 0 0 103
+2025-11-03 13:48:05 10.0.10.69 GET /.git/config - 80 - 195.178.110.160 Mozilla/5.0 - 404 0 0 83
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 12:00:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 12:00:04 10.0.10.69 GET /.env - 80 - 82.22.220.148 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/116.0.5845.140+Safari/537.36 - 404 0 0 120
+2025-11-03 12:00:04 10.0.10.69 POST / - 80 - 82.22.220.148 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/116.0.5845.140+Safari/537.36 - 404 0 0 114
+2025-11-03 12:27:14 10.0.10.69 GET /login.rsp - 80 - 94.74.182.138 Hello+World - 404 0 0 135
+2025-11-03 12:49:19 10.0.10.69 GET / - 80 - 87.121.84.17 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/105.0.0.0+Safari/537.36 - 404 0 0 95
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 11:12:28
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 11:12:12 10.0.10.69 GET / - 80 - 204.76.203.219 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/90.0.4430.85+Safari/537.36+Edg/90.0.818.46 - 404 0 0 95
+2025-11-03 11:41:09 10.0.10.69 GET /phpmyadmin/index.php lang=en 80 - 54.38.225.88 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/137.0.0.0+Safari/537.36 - 404 0 0 87
+2025-11-03 11:45:51 10.0.10.69 GET / - 80 - 43.157.95.239 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+13_2_3+like+Mac+OS+X)+AppleWebKit/605.1.15+(KHTML,+like+Gecko)+Version/13.0.3+Mobile/15E148+Safari/604.1 - 404 0 0 97
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 10:14:58
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 10:14:29 10.0.10.69 GET /login.rsp - 80 - 94.74.182.138 Hello+World - 404 0 0 171
+2025-11-03 10:24:46 10.0.10.69 GET /cgi-bin/luci/;stok=/locale - 80 - 37.49.148.32 - - 200 0 64 513
+2025-11-03 10:26:13 10.0.10.69 GET / - 80 - 170.106.35.187 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+13_2_3+like+Mac+OS+X)+AppleWebKit/605.1.15+(KHTML,+like+Gecko)+Version/13.0.3+Mobile/15E148+Safari/604.1 - 404 0 0 3
+2025-11-03 10:26:13 10.0.10.69 GET / - 80 - 87.121.84.17 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/105.0.0.0+Safari/537.36 - 404 0 0 90
+2025-11-03 10:51:20 10.0.10.69 GET / - 80 - 93.174.93.12 Mozilla/5.0+(Windows;+U;+Windows+NT+6.1;+en-US)+AppleWebKit/532.5+(KHTML,+like+Gecko)+Chrome/4.0.249.0+Safari/532.5 - 404 0 0 88
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-11-03 09:25:57
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-11-03 09:25:36 10.0.10.69 GET /.env - 80 - 50.114.98.86 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/116.0.5845.140+Safari/537.36 - 404 0 0 463
+2025-11-03 09:25:41 10.0.10.69 POST / - 80 - 50.114.98.86 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/116.0.5845.140+Safari/537.36 - 404 0 0 86
+2025-11-03 09:34:34 10.0.10.69 GET /ReportServer - 80 - 40.124.173.234 Mozilla/5.0+zgrab/0.x - 404 0 0 39
+2025-11-03 09:48:51 10.0.10.69 OPTIONS / - 80 - 34.23.171.164 - - 404 0 0 20
+2025-11-03 08:56:44 10.0.10.69 GET /.env - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 39
+2025-11-03 08:56:44 10.0.10.69 GET /.env.local - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 40
+2025-11-03 08:56:45 10.0.10.69 GET /.env.production - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 36
+2025-11-03 08:56:45 10.0.10.69 GET /.env.swp - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 35
+2025-11-03 08:56:49 10.0.10.69 GET /.aws/credentials - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 40
+2025-11-03 08:56:49 10.0.10.69 GET /.github/workflows/main.yaml - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 39
+2025-11-03 08:56:49 10.0.10.69 GET /.github/workflows/deploy.yml - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 39
+2025-11-03 08:56:50 10.0.10.69 GET /.github/workflows/ci.yml - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 36
+2025-11-03 08:56:50 10.0.10.69 GET /config/ - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 35
+2025-11-03 08:56:50 10.0.10.69 GET /config/dev.js - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 35
+2025-11-03 08:56:51 10.0.10.69 GET /config/default.js - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 39
+2025-11-03 08:56:51 10.0.10.69 GET /config/production.js - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 35
+2025-11-03 08:56:51 10.0.10.69 GET /config/secrets.js - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 35
+2025-11-03 08:56:52 10.0.10.69 GET /config/config.json - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 40
+2025-11-03 08:56:52 10.0.10.69 GET /config/keys.json - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 36
+2025-11-03 08:56:52 10.0.10.69 GET /config/firebase.js - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 40
+2025-11-03 08:56:54 10.0.10.69 GET /config/firebase.json - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 36
+2025-11-03 08:56:54 10.0.10.69 GET /config/credentials.json - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 39
+2025-11-03 08:56:54 10.0.10.69 GET /config/private.key - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 34
+2025-11-03 08:56:55 10.0.10.69 GET /config/master.key - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 40
+2025-11-03 08:56:55 10.0.10.69 GET /config/.env - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 43
+2025-11-03 08:56:56 10.0.10.69 GET /config/settings.py - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 43
+2025-11-03 08:56:56 10.0.10.69 GET /config/database.yml - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 43
+2025-11-03 08:56:58 10.0.10.69 GET /config/secrets.yml - 80 - 76.128.197.190 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 47
+2025-11-03 08:56:59 10.0.10.69 PUT /thumbnail.txt - 80 - 189.217.48.57 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 99
+2025-11-03 08:56:59 10.0.10.69 GET /thumbnail.txt - 80 - 189.217.48.57 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/130.0.6723.70+Safari/537.36 - 404 0 0 82
+
+eb-version-deployment.log:
+
+2025-10-30 21:19:09 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-10-30 21:19:11 Found the latest version manifest file resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1761858893781 from bucket elasticbeanstalk-us-east-1-921125571273 and prefix resources/environments/e-crzhtmfxft/_runtime/versions/
+2025-10-30 21:19:12 Downloaded the version info file to C:\cfn\version_manifest
+2025-10-30 21:19:13 Downloaded version label fishhouse-v1 from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/fishhouse-v1
+2025-10-30 21:36:41 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-10-30 21:36:42 Version manifest file name already known. The latest version manifest file key is resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1761860173780
+2025-10-30 21:36:45 Downloaded the version info file to C:\cfn\version_manifest
+2025-10-30 21:36:46 Downloaded version label fishhouse-v2 from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/fishhouse-v2
+2025-10-30 21:44:57 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-10-30 21:44:58 Version manifest file name already known. The latest version manifest file key is resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1761860678459
+2025-10-30 21:44:59 Downloaded the version info file to C:\cfn\version_manifest
+2025-10-30 21:45:00 Downloaded version label fishhouse-v3 from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/fishhouse-v3
+2025-10-30 22:11:35 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-10-30 22:11:36 Version manifest file name already known. The latest version manifest file key is resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1761862278613
+2025-10-30 22:11:38 Downloaded the version info file to C:\cfn\version_manifest
+2025-10-30 22:11:39 Downloaded version label fishhouse-v4 from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/fishhouse-v4
+2025-10-30 23:08:05 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-10-30 23:08:06 Version manifest file name already known. The latest version manifest file key is resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1761865667482
+2025-10-30 23:08:08 Downloaded the version info file to C:\cfn\version_manifest
+2025-10-30 23:08:09 Downloaded version label v5-cors-netlify-fix from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/v5-cors-netlify-fix
+2025-10-30 23:11:44 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-10-30 23:11:45 Version manifest file name already known. The latest version manifest file key is resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1761865888784
+2025-10-30 23:11:47 Downloaded the version info file to C:\cfn\version_manifest
+2025-10-30 23:11:48 Downloaded version label fishhouse-v4 from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/fishhouse-v4
+2025-10-30 23:31:05 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-10-30 23:31:06 Version manifest file name already known. The latest version manifest file key is resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1761867049241
+2025-10-30 23:31:09 Downloaded the version info file to C:\cfn\version_manifest
+2025-10-30 23:31:09 Downloaded version label fishhouse-v6-cors-fix from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/fishhouse-v6-cors-fix
+2025-11-03 16:44:32 Successfully verified ownership of S3 Bucket elasticbeanstalk-us-east-1-921125571273
+2025-11-03 16:44:33 Version manifest file name already known. The latest version manifest file key is resources/environments/e-crzhtmfxft/_runtime/versions/manifest_1762188244702
+2025-11-03 16:44:35 Downloaded the version info file to C:\cfn\version_manifest
+2025-11-03 16:44:35 Downloaded version label postgres-migration-20251103-114351 from s3 key resources/environments/e-crzhtmfxft/_runtime/_versions/fishhouse-api/postgres-migration-20251103-114351

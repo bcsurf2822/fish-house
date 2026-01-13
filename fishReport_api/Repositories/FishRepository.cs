@@ -27,22 +27,38 @@ namespace FishReportApi.Repositories
 
         public async Task<bool> PatchAsync(int id, JsonPatchDocument<Species> patchDoc, ModelStateDictionary modelState)
         {
+            Console.WriteLine($"[FishRepository-PatchAsync] Attempting to patch fish {id}");
+
             var fish = await _context.Species.FindAsync(id);
             if (fish == null)
             {
+                Console.WriteLine($"[FishRepository-PatchAsync] Fish {id} not found");
                 return false;
             }
-            patchDoc.ApplyTo(fish, modelState);
 
+            Console.WriteLine($"[FishRepository-PatchAsync] Applying patch document to fish {id}");
+            patchDoc.ApplyTo(fish, modelState);
 
             if (!modelState.IsValid)
             {
+                Console.WriteLine($"[FishRepository-PatchAsync] ModelState is invalid after applying patch");
                 return false;
             }
 
+            Console.WriteLine($"[FishRepository-PatchAsync] Patch applied successfully. Current price: {fish.Price}");
 
-            await _context.SaveChangesAsync();
-            return true;
+            try
+            {
+                var changeCount = await _context.SaveChangesAsync();
+                Console.WriteLine($"[FishRepository-PatchAsync] SaveChangesAsync completed. Changes saved: {changeCount}");
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[FishRepository-PatchAsync] ERROR saving changes: {ex.Message}");
+                Console.WriteLine($"[FishRepository-PatchAsync] Stack trace: {ex.StackTrace}");
+                throw;
+            }
         }
     }
 }

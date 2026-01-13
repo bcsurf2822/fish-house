@@ -4,48 +4,49 @@ const BASE_URL = "/fish-images";
 
 export const fishImageMap = {
   // Tuna varieties
-  tuna: `${BASE_URL}/bluefin-tuna.jpg`,
-  "bluefin tuna": `${BASE_URL}/bluefin-tuna.jpg`,
-  "yellowfin tuna": `${BASE_URL}/yellowfin-tuna.jpg`,
-  "albacore tuna": `${BASE_URL}/bluefin-tuna.jpg`,
-  "skipjack tuna": `${BASE_URL}/bluefin-tuna.jpg`,
-  "bigeye tuna": `${BASE_URL}/bluefin-tuna.jpg`,
+  tuna: `${BASE_URL}/bluefin-tuna.png`,
+  "bluefin tuna": `${BASE_URL}/bluefin-tuna.png`,
+  "yellowfin tuna": `${BASE_URL}/yellofin-tuna.png`,
+  "albacore tuna": `${BASE_URL}/bluefin-tuna.png`,
+  "skipjack tuna": `${BASE_URL}/bluefin-tuna.png`,
+  "bigeye tuna": `${BASE_URL}/bluefin-tuna.png`,
 
   // Salmon varieties
-  salmon: `${BASE_URL}/atlantic-salmon.jpg`,
-  "atlantic salmon": `${BASE_URL}/atlantic-salmon.jpg`,
-  "pacific salmon": `${BASE_URL}/atlantic-salmon.jpg`,
-  "king salmon": `${BASE_URL}/atlantic-salmon.jpg`,
-  "sockeye salmon": `${BASE_URL}/atlantic-salmon.jpg`,
+  salmon: `${BASE_URL}/salmon.png`,
+  "atlantic salmon": `${BASE_URL}/salmon.png`,
+  "pacific salmon": `${BASE_URL}/salmon.png`,
+  "king salmon": `${BASE_URL}/salmon.png`,
+  "sockeye salmon": `${BASE_URL}/salmon.png`,
 
   // Mackerel varieties
-  mackerel: `${BASE_URL}/king-mackerel.jpg`,
-  "king mackerel": `${BASE_URL}/king-mackerel.jpg`,
-  "spanish mackerel": `${BASE_URL}/king-mackerel.jpg`,
-  "atlantic mackerel": `${BASE_URL}/king-mackerel.jpg`,
+  mackerel: `${BASE_URL}/king-mackerel.png`,
+  "king mackerel": `${BASE_URL}/king-mackerel.png`,
+  "spanish mackerel": `${BASE_URL}/king-mackerel.png`,
+  "atlantic mackerel": `${BASE_URL}/king-mackerel.png`,
 
   // Billfish
-  swordfish: `${BASE_URL}/swordfish.jpg`,
-  marlin: `${BASE_URL}/marlin.jpg`,
-  sailfish: `${BASE_URL}/sailfish.jpg`,
+  swordfish: `${BASE_URL}/swordfish.png`,
+  marlin: `${BASE_URL}/blue-marlin.png`,
+  "blue marlin": `${BASE_URL}/blue-marlin.png`,
+  sailfish: `${BASE_URL}/sailfish.png`,
 
   // Reef and coastal fish
-  "mahi mahi": `${BASE_URL}/mahi-mahi.jpg`,
-  halibut: `${BASE_URL}/pacific-halibut.jpg`,
-  "pacific halibut": `${BASE_URL}/pacific-halibut.jpg`,
-  grouper: `${BASE_URL}/groupers.jpg`,
-  groupers: `${BASE_URL}/groupers.jpg`,
-  snapper: `${BASE_URL}/snapper.jpg`,
-  anchovy: `${BASE_URL}/anchovy.jpg`,
-  anchovies: `${BASE_URL}/anchovy.jpg`,
-  wrasse: `${BASE_URL}/humphead-wrasse.jpg`,
-  "humphead wrasse": `${BASE_URL}/humphead-wrasse.jpg`,
-  trevally: `${BASE_URL}/giant-trevally.jpg`,
-  "giant trevally": `${BASE_URL}/giant-trevally.jpg`,
-  tarpon: `${BASE_URL}/tarpon.jpg`,
-  "flying fish": `${BASE_URL}/flying-fish.jpg`,
-  pompano: `${BASE_URL}/pompano.jpg`,
-  sturgeon: `${BASE_URL}/sturgeon.jpg`,
+  "mahi mahi": `${BASE_URL}/mahi-mahi.png`,
+  halibut: `${BASE_URL}/halibut.png`,
+  "pacific halibut": `${BASE_URL}/halibut.png`,
+  grouper: `${BASE_URL}/grouper.png`,
+  groupers: `${BASE_URL}/grouper.png`,
+  snapper: `${BASE_URL}/snapper.png`,
+  anchovy: `${BASE_URL}/anchovy.png`,
+  anchovies: `${BASE_URL}/anchovy.png`,
+  wrasse: `${BASE_URL}/humphead-wrasse.png`,
+  "humphead wrasse": `${BASE_URL}/humphead-wrasse.png`,
+  trevally: `${BASE_URL}/giant-trevaly.png`,
+  "giant trevally": `${BASE_URL}/giant-trevaly.png`,
+  tarpon: `${BASE_URL}/bluefin-tuna.png`,
+  "flying fish": `${BASE_URL}/flying-fish.png`,
+  pompano: `${BASE_URL}/pompano.png`,
+  sturgeon: `${BASE_URL}/sturgeon.png`,
 };
 
 export const getFishImage = (fishName) => {
@@ -64,5 +65,5 @@ export const getFishImage = (fishName) => {
   }
 
   // Default fallback image
-  return `${BASE_URL}/bluefin-tuna.jpg`;
+  return `${BASE_URL}/bluefin-tuna.png`;
 };
